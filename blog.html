@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/ico" href="img/favicon.ico"> 
+    <link rel="icon" type="image/ico" href="img/favicon.png"> 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
@@ -18,18 +18,34 @@
   </div>
   <header><!--menu-->
     <div id="navbar">
+        <div class="principal-cabecera">
+          <div class="cabecera">
+              <span class="fa fa-phone"><label>+51:968-206-865</label></span>
+              <span class="fa fa-envelope-o"><label>juancolquegamio@gmail.com</label></span>
+              <a href="https://api.whatsapp.com/send?phone=51968206865&text=&source=&data=&app_absent=" target="_blank"><i class="fa fa-whatsapp" style="color: #2BFF96;"></i> 968206865</a>
+              <div class="sociales-nav">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+            
+              </div> 
+          </div>
+        </div>
         <div class="container-header">
           <div class="logo">
             <a href="index.html"><img src="img/logo.png" width="40"></a>  
           </div>
           <div class="redes-menu">
             <div class="redes">
-              <a href="acerca.html" class="fa fa-user-circle"></a>
-              <a href="contacto.html" class="fa fa-envelope-o"></a>
-              <a href="#" class="fa fa-whatsapp"> 968206865</a> 
+              <small class="ver-info">
+              <a href="acerca.html" class="fa fa-user-circle" style="background: none;"></a>
+              <span class="info-box">Sobre mi</span>
+              </small>
+
+              <a href="contacto.html" style="border:1px solid #0d60aba1; padding: 7px 12px;border-radius: 22px;font-size: 15px;">Comenzar</a>
             </div>
-             <div class="menu-label">
-              <label>Menú</label>
+            <div class="menu-label">
+              <label>Menú |</label>
             </div>
             <div class="menu" id="btn-menu">
               <span class="line line1"></span>
@@ -55,7 +71,7 @@
       <div class="banner">
         <div class="descripcion">
            <h1>Blog</h1>
-          <p> Lee los articulos de mi sitio web sobre las tendencias web 2020</p><br><br>
+          <p> Lee los articulos de mi sitio sobre las tendencias web 2020</p><br><br>
           <a href="#" id="boton">ver articulos</a>
         </div>  
       </div>  
@@ -65,7 +81,6 @@
 
 
    <div class="div contenedor" >
-
     <article class="article item item-uno"><!--articulo uno-->
       <div class="contenido">
           <img src="https://www.webempresa.com/wp-content/uploads/2013/08/theme_attorney_jul2013.jpg">
@@ -112,12 +127,12 @@
       </div><br>
        <div class="lateral">
         <h4>sobre mi</h4>
-         <a href="https://juangamio.github.io/blog"><img src="img/perfil.jpg" class="perfil" title="ver perfil"></a>
+         <a href="acerca.html"><img src="img/perfil.jpg" class="perfil" title="ver perfil"></a>
       </div>
        <div class="lateral">
         <h4>Tienda online</h4>
           <p>Diseño y desarrollo de ecommerce,vende es posible por internet</p>
-          <a href="tienda.html"><img src="img/diseño-tienda.png" width="250" title="visitar"></a>
+          <a href="tienda.html"><img src="img/diseño-tienda.png" width="250" title="visitar" alt="tienda virtual para vender en internet"></a>
       </div>
        <div class="lateral">
         <h4>Contacto</h4>
@@ -149,8 +164,7 @@
   margin: 4px;
   padding: 10px;
 }
-.article .contenido a{text-decoration:none; padding:2px 5px;  margin:10px;font-size: 15px; color: #777; font-family: 'Raleway'; border-right: 1px solid #b1b1b169;}
-.article .contenido a:hover{color: #ff5722;}
+.article .contenido a{text-decoration:none; padding:2px 5px;  margin:10px;font-size: 15px; color: #ff5722; font-family: 'Raleway'; border-bottom:  1px dotted #ff5722;}
 .article .contenido h3{text-transform: uppercase;margin-bottom:20px;margin-top:15px;  color: #3b82c3;font-weight: 300;}
 .article .contenido p{margin-bottom:20px; font-size: 18px;text-align: justify; color: #777;}
 .article .contenido img{width:100%;margin-top:20px;border-radius: 4px; transition: .5s ease;}
@@ -189,31 +203,44 @@
 @media only screen and (max-width: 700px){
 .contenedor{flex-direction:column;}
 .article{width:85%;margin: auto;}
-
 }
-
-
 </style>
 
   <footer><!-- Footer -->
-      <div class="footer">
-          <div class="copy-foter">
-              <div class="footer-copy">
-                  &copy; 2020 Codigojota | Todos los derechos reservados | política de cookies |<a href="site-map.html" style="text-decoration: none;color:#f5893b;"> mapa del sitio |</a> <a href="acerca.html" class="conecta">Byjuan</a>
-              </div>
-              <div class="footer-socials">
-                <a href="#"  class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#"  class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+          <div class="footer-section">
+            <div class="footer-item">
+              <h6>Informacion Contacto</h6>
+              <span><i class="fa fa-envelope-o"></i> juancolquegamio@gmail.com</span><br><br>
+              <span><i class="fa fa-phone"></i> Teléfono: +51 968206865</span><br><br>
+            </div>
+            <div class="footer-item">
+                 <h6>Servicios</h6>
+                  <a href="web-seo.html">Web SEO en buscadores</a><br><br>
+                  <a href="tienda.html">Tiendas virtuales</a><br>
+            </div>
+            <div class="footer-item">
+              <h6>Redes Sociales</h6>
+             <div class="icon-social">
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-twitter"></span></a>
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-github"></span></a>
+            </div>
 
+          </div><!--===footer pricipal===-->
+              <div class="footer-copy-redes"><!--===footer copy===-->
+                 <div class="bg-footer"></div>
+                  <div class="main-copy-redes">
+                    <div class="footer-copy">
+                         &copy;2020 codigojota - Todo los derechos reservados - politica de cookies <a href="site-map.html"> site map |</a> <a href="acerca.html" > By juan</a> 
+                    </div>
+                  </div>
               </div>
-          </div> 
-      </div>
-      <div class="icon_top" id="icon-btn">
-        <span class="fa fa-angle-double-up"></apan>
-      </div>
-    </footer> <!-- Footer -->
+              <div class="icon_top" id="icon-btn">
+                 <span class="fa fa-angle-double-up"></apan>
+              </div>
+    </footer><!-- Footer -->
  
      <script src="js/jquery-3.2.1.js"></script>
      <script src="js/menu.js"></script>

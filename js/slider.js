@@ -78,7 +78,7 @@ let index=0;
       
       clearInterval(timer);
       // tiempo de carga
-      timer=setInterval(autoPlay,8000);
+      timer=setInterval(autoPlay,18000);
    }
  
   function autoPlay(){
@@ -86,4 +86,4 @@ let index=0;
     updateCircleIndicator();
   }
 
-  let timer=setInterval(autoPlay,8000);
+  let timer=setInterval(autoPlay,18000);

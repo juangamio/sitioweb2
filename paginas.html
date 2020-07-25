@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/ico" href="img/favicon.ico"> 
+    <link rel="icon" type="image/ico" href="img/favicon.png"> 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -17,18 +17,34 @@
   </div>
   <header><!--menu-->
     <div id="navbar">
+        <div class="principal-cabecera">
+          <div class="cabecera">
+              <span class="fa fa-phone"><label>+51:968-206-865</label></span>
+              <span class="fa fa-envelope-o"><label>juancolquegamio@gmail.com</label></span>
+              <a href="https://api.whatsapp.com/send?phone=51968206865&text=&source=&data=&app_absent=" target="_blank"><i class="fa fa-whatsapp" style="color: #2BFF96;"></i> 968206865</a>
+              <div class="sociales-nav">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+            
+              </div> 
+          </div>
+        </div>
         <div class="container-header">
           <div class="logo">
             <a href="index.html"><img src="img/logo.png" width="40"></a>  
           </div>
           <div class="redes-menu">
             <div class="redes">
-              <a href="acerca.html" class="fa fa-user-circle"></a>
-              <a href="contacto.html" class="fa fa-envelope-o"></a>
-              <a href="#" class="fa fa-whatsapp"> 968206865</a> 
+              <small class="ver-info">
+              <a href="acerca.html" class="fa fa-user-circle" style="background: none;"></a>
+              <span class="info-box">Sobre mi</span>
+              </small>
+
+              <a href="contacto.html" style="border:1px solid #0d60aba1; padding: 7px 12px;border-radius: 22px;font-size: 15px;">Comenzar</a>
             </div>
             <div class="menu-label">
-              <label>Menú</label>
+              <label>Menú |</label>
             </div>
             <div class="menu" id="btn-menu">
               <span class="line line1"></span>
@@ -54,7 +70,7 @@
         <div class="slide active" style="background-image: url('img/slider-1.jpg')">
             <div class="container-web">
                 <div class="caption">
-                    <h1 style="color: #fff;"><strong style="color: #FF5722;">Sitios Web </strong> Responsive</h1>
+                    <h1 style="color: #fff;"><strong>Sitios Web </strong> Responsive</h1>
                     <p style="color: #fff;">Diseñar tu sitio es el punto de partida para lograr el éxito</p>
                     <a href="#" id="boton">Más detalles</a>
                 </div>
@@ -64,33 +80,28 @@
             <div class="container-web">
                 <div class="caption">
                    
-                    <h1><strong style="color: #FF5722;">Creación </strong> de Tiendas Online</h1>
-                    <p id="master-text">Empieza a verder en internet con una tienda virtual </p>
+                    <h1><strong>Creación </strong> de Tiendas Online</h1>
+                    <p id="master-text" style="color: #fff;">Empieza a verder en internet con una tienda virtual </p>
                     <a href="tienda.html">Conocer más <span class="fa fa-angle-right"></span> </a>
                 </div>
             </div>
         </div>
-        <div class="slide" style="background-image: url('img/slider-2.jpg')">
+        <div class="slide" style="background-image: url('img/slider-3.jpg')">
             <div class="container-web">
                 <div class="caption">
-                     <h1><strong style="color: #FF5722;">Web SEO</strong>  en Buscadores</h1>
+                     <h1><strong>Web SEO</strong>  en Buscadores</h1>
                     <p>Estrategias para posicionar tu página en buscadores</p>
                     <a href="web-seo.html">Saber más</a>
                 </div>
             </div>
         </div>
      </div>
-
-    <!-- controls  -->
-    <div class="controls">
-        <div class="prev"><</div>
-        <div class="next">></div>
-    </div>
-
-    <!-- indicators -->
-    <div class="indicator">
-    </div>
-
+      <div class="controls"><!-- controls  -->
+          <div class="prev"><</div>
+          <div class="next">></div>
+      </div>
+      <!-- indicators -->
+      <div class="indicator"></div>
   </section><!-- /end slider pagina-->
    
 
@@ -125,7 +136,7 @@
             <a href="contacto.html"><strong>Sr.</strong> ¡ QUIERO MI SITIO EN WORDPRESS !</a>
           </div>
           <div class="web-aticulo-contenido">
-          <img src="https://s.w.org/images/home/screen-themes.png?3" style="border-radius: 5px;">
+          <img src="https://s.w.org/images/home/screen-themes.png?3" style="border-radius: 5px;" alt="">
           <p>Wordpress es exclusivamente para diseños web, un CMS que facilita muchas cosas, posee  una curva de aprendizaje fácil.</p>
           </div>
       </div> 
@@ -134,7 +145,7 @@
     <div id="B" class="tab-contenedor">
       <div class="web-articulo">
         <div class="web-aticulo-contenido">
-          <img src="img/tema.jpg">
+          <img src="img/landing-page-web.jpg" alt="imagen de landing page">
         </div>
           <div class="web-aticulo-contenido">
             <h3>¿Necesitas una Landing Page?</h3>
@@ -174,34 +185,43 @@
           </div>
       </div> 
     </div>
-
-  <div class="proyecto">
-    <strong>[
-    <a href="contacto.html">¡Empieza tu Proyecto Ahora!</a>
-       ]</strong>
-  </div>
-
 </main>
  
     <footer><!-- Footer -->
-      <div class="footer" style="border-top:none;">
-          <div class="copy-foter">
-              <div class="footer-copy">
-               &copy; 2020 Codigojota | Todos los derechos reservados | política de cookies |<a href="site-map.html" style="text-decoration: none;color:#f5893b;"> mapa del sitio |</a> <a href="acerca.html" class="conecta">Byjuan</a>
-              </div>
-              <div class="footer-socials">
-                <a href="#"  class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#"  class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+          <div class="footer-section">
+            <div class="footer-item">
+              <h6>Informacion Contacto</h6>
+              <span><i class="fa fa-envelope-o"></i> juancolquegamio@gmail.com</span><br><br>
+              <span><i class="fa fa-phone"></i> Teléfono: +51 968206865</span><br><br>
+            </div>
+            <div class="footer-item">
+                 <h6>Servicios</h6>
+                  <a href="web-seo.html">Web SEO en buscadores</a><br><br>
+                  <a href="tienda.html">Tiendas virtuales</a><br>
+            </div>
+            <div class="footer-item">
+              <h6>Redes Sociales</h6>
+             <div class="icon-social">
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-twitter"></span></a>
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-github"></span></a>
+            </div>
 
+          </div><!--===footer pricipal===-->
+              <div class="footer-copy-redes"><!--===footer copy===-->
+                 <div class="bg-footer"></div>
+                  <div class="main-copy-redes">
+                    <div class="footer-copy">
+                         &copy;2020 codigojota - Todo los derechos reservados - politica de cookies <a href="site-map.html"> site map |</a> <a href="acerca.html" > By juan</a> 
+                    </div>
+                  </div>
               </div>
-          </div> 
-      </div>
-      <div class="icon_top" id="icon-btn">
-        <span class="fa fa-angle-double-up"></apan>
-      </div>
-    </footer> <!-- Footer -->
+              <div class="icon_top" id="icon-btn">
+                 <span class="fa fa-angle-double-up"></apan>
+              </div>
+    </footer><!-- Footer -->
  
      <script src="js/jquery-3.2.1.js"></script>
      <script src="js/menu.js"></script>

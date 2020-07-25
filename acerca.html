@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/ico" href="img/favicon.ico"> 
+    <link rel="icon" type="image/ico" href="img/favicon.png"> 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
      <link
@@ -21,18 +21,34 @@
   </div>
   <header><!--menu-->
     <div id="navbar">
+        <div class="principal-cabecera">
+          <div class="cabecera">
+              <span class="fa fa-phone"><label>+51:968-206-865</label></span>
+              <span class="fa fa-envelope-o"><label>juancolquegamio@gmail.com</label></span>
+              <a href="https://api.whatsapp.com/send?phone=51968206865&text=&source=&data=&app_absent=" target="_blank"><i class="fa fa-whatsapp" style="color: #2BFF96;"></i> 968206865</a>
+              <div class="sociales-nav">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+            
+              </div> 
+          </div>
+        </div>
         <div class="container-header">
           <div class="logo">
-            <a href="index.html"><img src="img/logo.png" width="40"></a>  
+            <a href="index.html"><img src="img/logo.png" width="40" alt="logo-codigojota"></a>  
           </div>
           <div class="redes-menu">
             <div class="redes">
-              <a href="acerca.html" class="fa fa-user-circle"></a>
-              <a href="contacto.html" class="fa fa-envelope-o"></a>
-              <a href="#" class="fa fa-whatsapp"> 968206865</a> 
+              <small class="ver-info">
+              <a href="acerca.html" class="fa fa-user-circle" style="background: none;"></a>
+              <span class="info-box">Sobre mi</span>
+              </small>
+
+              <a href="contacto.html" style="border:1px solid #0d60aba1; padding: 7px 12px;border-radius: 22px;font-size: 15px;">Comenzar</a>
             </div>
             <div class="menu-label">
-              <label>Menú</label>
+              <label>Menú |</label>
             </div>
             <div class="menu" id="btn-menu">
               <span class="line line1"></span>
@@ -104,16 +120,9 @@
         <div class="tab-descripcion">
           <h5>Juan Colque Gamio</h5>
           <p>Técnico en Computación e Informática egresado del instituo KHIPU con conocimientos en html5, css3, php, laravel, angular y Maria bd. Developer Front-end "Freelance".</p><br>
-          <p><b>Sigueme en:</b></p>
-          <ul class="media-redes">
-              <span class="fa fa-facebook"></span>
-              <span class="fa fa-twitter"></span>
-              <span class="fa fa-instagram"></span>
-              <span class="fa fa-github"></span>
-          </ul>
         </div> 
         <div class="tab-img">
-          <img src="img/perfil.jpg" alt="">
+          <img src="img/perfil.jpg" alt="fotografia de mi persona">
         </div>
       </div>
     </div>
@@ -128,7 +137,7 @@
         </div>
           <div class="tab-img">
             <div class="imagen-trabajo">
-              <img src="https://i.pinimg.com/originals/13/bc/16/13bc1679309e97b0d6d8602581146b35.jpg" alt="Códigojota trabajos">            
+              <img src="img/diseño-grafico-trabajos.jpg" alt="diseño-grafico inspiracion trabajos-en photoshop-en-cusco">            
             </div>
           </div>
       </div>
@@ -179,24 +188,40 @@ tabButton.forEach(tab => {
 </script>
 
    <footer><!-- Footer -->
-      <div class="footer">
-          <div class="copy-foter">
-              <div class="footer-copy">
-                  &copy; 2020 Codigojota | Todos los derechos reservados | política de cookies |<a href="site-map.html" style="text-decoration: none;color:#f5893b;"> mapa del sitio |</a> <a href="acerca.html" class="conecta">Byjuan</a>
-              </div>
-              <div class="footer-socials">
-                <a href="#"  class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#"  class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+          <div class="footer-section">
+            <div class="footer-item">
+              <h6>Informacion Contacto</h6>
+              <span><i class="fa fa-envelope-o"></i> juancolquegamio@gmail.com</span><br><br>
+              <span><i class="fa fa-phone"></i> Teléfono: +51 968206865</span><br><br>
+            </div>
+            <div class="footer-item">
+                 <h6>Servicios</h6>
+                  <a href="web-seo.html">Web SEO en buscadores</a><br><br>
+                  <a href="tienda.html">Tiendas virtuales</a><br>
+            </div>
+            <div class="footer-item">
+              <h6>Redes Sociales</h6>
+             <div class="icon-social">
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-twitter"></span></a>
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-github"></span></a>
+            </div>
 
+          </div><!--===footer pricipal===-->
+              <div class="footer-copy-redes"><!--===footer copy===-->
+                 <div class="bg-footer"></div>
+                  <div class="main-copy-redes">
+                    <div class="footer-copy">
+                         &copy;2020 codigojota - Todo los derechos reservados - politica de cookies <a href="site-map.html"> site map |</a> <a href="acerca.html" > By juan</a> 
+                    </div>
+                  </div>
               </div>
-          </div> 
-      </div>
-      <div class="icon_top" id="icon-btn">
-        <span class="fa fa-angle-double-up"></apan>
-      </div>
-    </footer> <!-- Footer -->
+              <div class="icon_top" id="icon-btn">
+                 <span class="fa fa-angle-double-up"></apan>
+              </div>
+    </footer><!-- Footer -->
  
      <script src="js/jquery-3.2.1.js"></script>
      <script src="js/menu.js"></script>
