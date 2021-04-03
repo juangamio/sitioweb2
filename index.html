@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Códigojota</title>
+    <title>Codigojota.io</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="Diseño y desarrollo de sitios web adaptable a dispositivos móviles, optimizado para Google" />
     <meta name="keywords" content="codigojota Cusco, tu pagina web en siete dias, web  seo cusco con códigojota "/>
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+     
+
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="imag/ico" href="img/favicon.png"> 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
@@ -21,13 +24,14 @@
     <div id="navbar">
         <div class="principal-cabecera">
           <div class="cabecera">
-              <span class="fa fa-phone"><label>+51:968-206-865</label></span>
+              <span class="fa fa-phone"><label>(+51) 968 206 865</label></span>
               <span class="fa fa-envelope-o"><label>juancolquegamio@gmail.com</label></span>
-              <a href="https://api.whatsapp.com/send?phone=51968206865&text=&source=&data=&app_absent=" target="_blank"><i class="fa fa-whatsapp" style="color: #2BFF96;"></i> 968206865</a>
+              <a href="https://api.whatsapp.com/send?phone=51968206865&text=&source=&data=&app_absent=" target="_blank" title="CHATEA"><i class="fa fa-comment-o"></i> chat</a>
               <div class="sociales-nav">
-               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="https://www.facebook.com/profile.php?id=100009234873473" target="_blank"><i class="fa fa-facebook"></i></a>
                <a href="#"><i class="fa fa-twitter"></i></a>
-               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="https://www.instagram.com/juangamio8/" target="_blank"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-linkedin"></i></a>
             
               </div> 
           </div>
@@ -40,10 +44,10 @@
     				<div class="redes">
               <small class="ver-info">
     					<a href="acerca.html" class="fa fa-user-circle" style="background: none;"></a>
-              <span class="info-box">Sobre mi</span>
+              <span class="info-box">Acerca de mi</span>
               </small>
 
-    					<a href="contacto.html" style="border:1px solid #0d60aba1; padding: 7px 12px;border-radius: 22px;font-size: 15px;">Comenzar</a>
+    					<a href="contacto.html" class="btn_boton" style="border:1px solid #0d60aba1; padding: 7px 12px;border-radius: 22px;font-size: 15px;">Comenzar</a>
     				</div>
             <div class="menu-label">
               <label>Menú |</label>
@@ -54,13 +58,24 @@
     					<span class="line line3"></span>	
     				</div>	
     		  </div>
+          <div class="buscador"><!-- BUSCADOR -->
+            <div class="icono-buscar"></div>
+            <div class="form-buscar">
+              <form>
+               <input type="text" name="" placeholder="Escriba aquí enter......" >
+               <button class="button-buscar fa fa-search"></button>
+             </form>
+            </div>
+          </div><!-- /BUSCADOR-->
        </div>
     		    <nav class="full-menu">
     		    	<ul>
     		    		<li class="active"><a href="index.html">Inicio</a></li>
-    		    		<li><a href="paginas.html">Paginas</a></li>
+    		    		<li><a href="paginas.html">Páginas</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="marketing.html">Marketing</a></li>
     		    		<li><a href="blog.html">Blog</a></li>
-    		    		<li><a href="faqs.html">Faq's</a></li>
+                <li><a href="faqs.html">Faq's</a></li>
     		    		<li><a href="contacto.html">Contacto</a></li>
     		    	</ul>
     		    </nav>
@@ -69,16 +84,16 @@
     
   <section class="home"><!--slider pagina-->
        <div class="slider">
-          <div class="slide active" style="background-image: url('img/slider-2.jpg')">
+          <div class="slide active" style="background-image: url('img/banner-portada.jpg')">
               <div class="container-web">
                   <div class="caption">
                       <h1><strong>Diseño de</strong> Páginas web</h1>
                       <p id="master-text">Sitios web Responsive adaptable a dispositivos móviles</p>
-                      <a href="#" id="abrir">Solicitar ahora <span class="fa fa-angle-right"></span> </a>
+                      <a href="#" id="abrir">Solicitar ahora <span class="fa fa-angle-double-right"></span> </a>
                   </div>
               </div>
           </div>
-          <div class="slide" style="background-image: url('img/slider-3.jpg')">
+          <div class="slide" style="background-image: url('img/portada-inicio.jpg')">
               <div class="container-web">
                   <div class="caption">
                       <h1><strong>Web SEO</strong>  en Buscadores</h1>
@@ -91,8 +106,8 @@
               <div class="container-web">
                   <div class="caption">
                       <h1 style="color: #fff"><strong>Tiendas </strong> Virtuales</h1>
-                      <p style="color: #fff; background: rgba(0,0,0,0.39); width: 80%; padding: 10px;" >Todo para hacer negocio en internet sólo con unos clics</p>
-                      <a href="tienda.html" > ver detalles </a>
+                      <p style="color: #fff; background: rgba(0,0,0,0.49); width: 80%; padding: 10px;" >Todo para hacer negocio en internet sólo con unos clics</p>
+                      <a href="tienda.html"> ver detalles </a>
                   </div>
               </div>
           </div>
@@ -144,7 +159,7 @@
 <main><!-- Contenedor principal -->
     <section class="acerca-de"><!--diseño web-->
       <div class="info-container">
-       <h2> Diseño & Desarrollo Web </h2>
+       <h2> Desarrollo Web personalizado</h2>
         <hr><br>
         <p> El Diseño de página web de una empresa es su carta de presentación ante el mundo, la calidad de su sitio tiene que reflejar asi como la calidad de sus productos y servicios que ofrece  que buscan el mayor impacto a la hora de promocionar su producto en internet en base a los objetivos y metas que tengas como empresa. ¿Qué puede hacer un sitio  web por ti? Brindar a tus visitantes experiencias de usuario increíbles y convertirlos en clientes.
        </p>
@@ -152,26 +167,25 @@
        <div class="pagina-container" data-anime="left"><!--diseño cajas-->
             <div class="pagina-contenido">
               <h2>Diseño UI/UX</h2>
-              <i class="fa fa-lightbulb-o"></i>
+              <i class="fa fa-gift"></i>
               <p>Diseño creativo, amigable de mayor performance</p> 
             </div>
             <div class="pagina-contenido">
               <h2>Updated 99%</h2>
-             <i class="fa fa-link"></i>
+             <i class="fa fa-rotate-left"></i>
               <p>Web optimizado, facilitará la carga más rápida de su página</p>
-              <span class="fa fa-angle-right" id="desplazar"></span>
               
             </div>
             <div class="pagina-contenido">
               <h2>Web Personalizado </h2>
-              <i class="fa fa-laptop"></i>
+              <i class="fa fa-desktop"></i>
               <p>Administarción del contenido con total autonomia</p>
             </div>
       </div><!--End diseño cajas-->
     <div class="contenedor__inicio"><!--presentacion-->
       <div class="contenedor-flex">
          <div class="info-items">
-              <img src="img/diseño-web.jpg" alt="diseño web personalizado en cusco" class="imagen">
+              <img src="img/presentacion-sitio-web.jpg" class="imagen" title="ver mas">
              <div class="overlay-img overlay-fade-img">
               <a href="paginas.html" class="btn-imagen"></a> 
                 <div class="text">
@@ -194,6 +208,49 @@
     </div><!-- / end -->   
   </section><!--/end-->
 
+  <div class="servicios"><!--====Blog======-->
+        <h3>Blog</h3>
+        <div class="servicio-area">
+                <div class="flex-caja">
+                    <div class="img-area">
+                      <img src="https://yourconceptgroup.com/wp-content/uploads/2019/08/c%C3%B3mo-vender-en-amazon-6-pasos.jpg" alt="" height="270">
+                      <div class="contenedor-categoria">
+                        <div class="contenido-caja">
+                          <p>¿Cómo vender en Amazon?</p>
+                          <small>¡Has oído hablar de Amazon!Imagina que tienes un ecommerce y vendes tus productos desde tu propia página.</small>
+                          <a href="blog.html">Saber más <i class=""></i></a>
+                        </div> 
+                      </div>
+                    </div>
+                </div>
+                <div class="flex-caja">
+                    <div class="img-area">
+                      <img src="https://lh4.googleusercontent.com/i5Y0pgHY_2T-dYtHVumpF494TQPTMKDnJ3usKqKRitBjzNe2qOauZQjnM6jeKhaEhYGWbeaYs9q8Efw_WzXaLylEeq_1WYh9HzTnzr0QV0Ib7lwIO2Q27n8x-vDvYxW9Sn3ckCAb" alt="" height="270">
+                      <div class="contenedor-categoria">
+                        <div class="contenido-caja">
+                          <p>Pasos para crear ecommerce</p>
+                          <small>Este es el contenido de este articulo web, puedes clicar en el siguiente enlace para ver más detalles </small>
+                          <a href="blog.html">Saber más <i class=""></i></a>
+                        </div> 
+                      </div>
+                    </div>
+                </div> 
+                <div class="flex-caja">
+                    <div class="img-area">
+                      <img src="https://wadic.net/wp-content/uploads/2019/03/Wordpress-vs-Joomla-vs-Drupal.jpg" alt="" height="270">
+                      <div class="contenedor-categoria">
+                        <div class="contenido-caja">
+                          <p>¿Cuál de CMS es mejor?</p>
+                          <small>La digitalización se ha vuelto prominente en la era moderna. Cada día se desarrollan más sitios web. </small>
+                           <a href="blog.html">Saber más <i class=""></i></a>
+
+                        </div> 
+                      </div>
+                    </div>
+                </div>  
+          </div> 
+      </div><!--/=======end=======-->
+
     <section class="articulo-blog"><!--Servicios-->
        <div class="skew-arriba"></div>
 	         <div class="bg-color"></div>
@@ -201,101 +258,56 @@
 		        <div class="proyecto-titulo"> <h3>servicios</h3> </div> 
 	              <div class="container">
 			        <div class="image">
-			            <img src="https://www.maxcf.es/wp-content/uploads/2018/09/plantillas-wordpress-gratis-futurio.jpg" alt="#">
+			            <img src="img/diseño-web2.png" alt="#">
 			            <i class="fa fa-laptop fa-2x"></i>
-			             <a href="paginas.html"><span class="fa fa-long-arrow-right"></span>  Diseño web</a>
+			             <a href="paginas.html"><span class="fa fa-angle-double-right"></span>  Diseño web</a>
 			        </div>
 			        <div class="image">
-			            <img src="img/diseño-grafico-trabajos.jpg" alt="#">
-			           <i class="fa fa-link fa-2x"></i>
-			            <a href="blog.html"><span class="fa fa-long-arrow-right"></span>  Diseño Gráfico</a>
+			            <img src="https://www.coreldraw.com/static/cdgs/images/free-trials/2021/coreldraw-everywhere.jpg" alt="#">
+			           <i class="fa fa-edit fa-2x"></i>
+			            <a href="blog.html"><span class="fa fa-angle-double-right"></span>  Diseño Gráfico</a>
 			        </div>
 			        <div class="image">
-			            <img src="https://perseo.com.ar/imagenes/portada/agencia-posicionamiento-web-seo-001-400x380.png" alt="#">
-			            <i class="fa fa-search fa-2x"></i>
-			             <a href="web-seo.html"><span class="fa fa-long-arrow-right"></span> Posicionamiento SEO</a>
+			            <img src="http://www.marcasymarketing.com/images/marketing-digital/seo-posicionamiento-buscadores-colombia-marcas-y-marketing.jpg" alt="#" width="350">
+			            <i class="fa fa-search fa-2x" ></i>
+			             <a href="web-seo.html"><span class="fa fa-angle-double-right"></span> Posicionamiento SEO</a>
 			        </div>
             </div><!--end servicios-->
 
 		    <div class="image-hover2"><!--sub categoria-->
-			     <div class="box slide-left">
+			     <div class="box slide-top">
 			        <img src="https://cdn.dribbble.com/users/6151/screenshots/1153809/cinema_multi2.jpg" />
 			        <div class="inner-box">
-			            <a href="#" class="fa fa-weibo" title="más detalles"></a>
-                  <small>Páginas web</small>
+			            <a href="#" class="fa fa-mail-forward" title="+ información"></a>
+                  <small>Web Design</small>
 			        </div>
 			     </div>
-			     <div class="box slide-top">
+			     <div class="box slide-left">
 			         <a href="web"><img src="https://elempresario.mx/sites/default/files/imagecache/nota_completa/marketing.jpeg" alt="image" /></a>
 			        <div class="inner-box">
-                <a href="#" class="fa fa-lightbulb-o" title="ver información"></a>
+                <a href="marketing.html" class="fa fa-thumbs-o-up" title="+ información"></a>
                   <small> Marketing</small> 
 			        </div>
 			     </div>
-			     <div class="box slide-right">
-			        <img src="https://internetparavender.com/images/servicio15_tiendas_virtuales_ecommerce_carritos_de_compra.jpg" alt="image" />
-			        <div class="inner-box">
-                <a href="tienda.html" class="fa fa-shopping-cart" title="ver detalles"></a>
-                  <small> Tienda virtual</small>    
-			        </div>
-			     </div>
+			     
 			     <div class="box slide-bottom">
 			        <img src="img/página-web-versatiles.png" alt="paginas web versatiles y vendedoras" />
 			        <div class="inner-box">
-                 <a href="#" class="fa fa-link" title="ver más"></a>
+                 <a href="#" class="fa fa-link" title="+ información.."></a>
                   <small> Landing Pages</small>      
 			        </div>
 			     </div>
+           <div class="box slide-right">
+              <img src="https://estudiaconsenasofiaplus.com/wp-content/uploads/2018/04/ofim%C3%A1tica-excel-sena-sofia-plus.jpg" height="210" alt="image" />
+              <div class="inner-box">
+                <a href="tienda.html" class="fa fa-file-excel-o" title="+ información.."></a>
+                  <small> Offimatica</small>    
+              </div>
+           </div>
 		    </div><!--/end sub categoria -->
             <div class="skew-abajo"></div>
     </section><!--/ Servicios -->
-   
-    <section class="beneficios"><!-- Beneficios -->
-        <h4>Principales Beneficios</h4>   
-        <div class="box-testimonio">
-            <div class="services-box"  data-anime="right" >
-                <div class="box">
-                    <div class="ser-box">
-                        <div class="icon">
-                            <img src="img/icon-redes.png" alt="icono para enlace redes sociales">
-                        </div>
-                         <h4>Enlace con Redes Sociales</h4>
-                         <p>Fortalecer tu marca y difundir mejor tu contenido en internet.</p>
-                            <label class="tooltip">
-                              <a href="web-seo.html"><i class="fa fa-arrow-circle-right"></i> más info..</a>
-                                  <span class="tooltip-box">Esto hara que tu consigas mas clientes en tu página web, para ver más detalles  click en el enlace</span>
-                            </label>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="ser-box">
-                        <div class="icon">
-                            <img src="img/icon-seo.jpg" alt="icono seo en buscadores">
-                        </div>
-                         <h4>Visibilidad en Buscadores</h4>
-                         <p>Buscar mayor ubicación de tu sitio web en distintos motores de busqueda...</p>
-                            <label class="tooltip">
-                              <a href="web-seo.html"><i class="fa fa-arrow-circle-right"></i> más info..</a>
-                                  <span class="tooltip-box">Para que Google te posicione en internet debes tener un buen contenido, explorar más click quí</span>
-                            </label>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="ser-box">
-                        <div class="icon">
-                            <img src="img/icon-analisis.png" alt="icono Google Analytics para medir tu página">
-                        </div>
-                         <h4>Análisis y Resultados</h4>
-                         <p>Google Analytics herramienta analítica digital para medir tráfico  de su sitio web.</p>
-                          <label class="tooltip">
-                            <a href="web-seo.html"><i class="fa fa-arrow-circle-right"></i> más info..</a>
-                              <span class="tooltip-box">Herramienta muy poderosa,te permite ver visitas tu sitio web, para ver más información  click en el enlace</span>
-                          </label>
-                    </div>
-                </div>
-            </div><!--end-->       
-        </div>
-    </section><!--/ end beneficio --> 
+    
         <article class="articulo-principal articulo-main">
           <div class="categoria items categoria-uno">
             <div class="div-categoria">
@@ -327,7 +339,7 @@
                      </div>
                     <h5>¿Qué es un CMS?</h5>
                      <p>Sistema de Gestión de Contenidos, permite la creación y administración de contenidos..</p>
-                     <a href="blog.html" class="btn-enlace">Saber +</a>
+                     <a href="blog.html" class="btn-enlace">Saber</a>
                 </div>
               </div> 
             </div>
@@ -367,7 +379,7 @@
                  <div class="bg-footer"></div>
                   <div class="main-copy-redes">
                     <div class="footer-copy">
-                         &copy;2020 codigojota - Todo los derechos reservados - politica de cookies <a href="site-map.html"> site map |</a> <a href="acerca.html" > By juan</a> 
+                         &copy;2021 🇵🇪 códigojota -Todo los derechos reservados | política de cookies <a href="site-map.html"> Site map |</a> <a href="acerca.html" > By juan</a> 
                     </div>
                   </div>
               </div>
@@ -378,6 +390,7 @@
 
       <!-- WhatsApp chat -->
         <script type="text/javascript">
+          /
           (function () {
               var options = {
                   whatsapp: "+51: 968206865", // Numero de WhatsApp 
@@ -399,5 +412,6 @@
      <script src="js/slider.js"></script>
      <script src="js/loader.js"></script>
      <script src="js/scroll.js"></script>
+     <script src="js/search.js"></script>
   </body>
 </html>
