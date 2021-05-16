@@ -92,7 +92,7 @@ html,h1,h2,h3,h4,h5,h6,p,a,label,span,small{
   width: 100%;
   max-width: 2000px;
   height: 100vh;
-  top: 0;
+  top :0;
   display: flex;
   justify-content: center;
   -ms-align-items:center;
@@ -100,6 +100,7 @@ html,h1,h2,h3,h4,h5,h6,p,a,label,span,small{
   z-index: 10;
   position: fixed;
 }
+
 .full-menu ul li{list-style: none;width: 300px;text-align: center;margin-bottom: 40px;}
 .full-menu ul li a{
   text-decoration: none;
@@ -132,7 +133,7 @@ html,h1,h2,h3,h4,h5,h6,p,a,label,span,small{
 
 /*===cargar pagina===*/
 #preloader{position: fixed; top: 0;left: 0;right: 0;bottom: 0;background:rgba(255, 255, 255, 255.7);z-index: 1000;}
-#loader{width: 300px;height:300px;position: absolute;left: 42%;top: 30%;margin: -50px 0 0 -50px;background:url(../img/loading.gif)no-repeat center 0;}
+#loader{width: 300px;height:300px;position: absolute;left: 42%;top: 30%;margin: -50px 0 0 -50px;background:url(../img/loading.png)no-repeat center 0;}
 
 /*===BOTON ANIMADO====*/
 button.abajo {
@@ -484,10 +485,10 @@ button.abajo {
 .categoria-tres{flex-grow: 1; order:1; }
 .categoria .div-categoria .imagen{margin-top: 10px; margin-left:3%; }
 .div-categoria a{text-decoration: none;color: #FFF; font-weight: bold; widows: 100%;  padding: 6px 20px;border-radius: 5px;margin-left: 23%;border: 2px solid #fff;text-align: center;transition: .5s all;top: -150px;position: relative;}
-.div-categoria a:hover{background: #ff764b;color: #fff; border-color:none; box-shadow: .1rem .1rem .1rem rgba(0,0,0,0.2);}
+.div-categoria a:hover{background: #ff764b;border: 1px solid #ff764b;color: #fff; border-color:none; box-shadow: .1rem .1rem .1rem rgba(0,0,0,0.2);}
 .div-categoria .servicio{position: relative;min-height: 1px;padding-right: 15px;padding-left: 15px;}
 .servicio-caja{background: #1b4871e0;display: block;position: relative;padding: 55px 0;margin-bottom: 35px;box-shadow: none;text-align: center;transition: all .4s ease;}
-.servicio-caja::before{content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0;background:url(../img/parallax-contacto.png);transform: scaleY(0);transition-property: transform;transition-duration: .5s;transition-timing-function: ease-out;transform-origin: 50% 0;}
+.servicio-caja::before{content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0;background:#677d92;transform: scaleY(0);transition-property: transform;transition-duration: .5s;transition-timing-function: ease-out;transform-origin: 50% 0;}
 .servicio-caja .btn-enlace{position: absolute;color: #fff;border-radius:2px;display: inline-block;padding: 6px 23px;line-height: 15px;border: 1px solid #f7f7f7;font-size: 15px;transition: all .5s;top: 85%;z-index: -1;transform: translateY(-40px);transition-delay: .7s;}
 .servicio-caja:hover::before{transform: scaleY(1);}
 .servicio-caja p{font-weight: normal; margin: 0;font-size: 15px;margin-top: 20px;line-height: 1.1;text-align: center;position: relative;}
@@ -552,7 +553,7 @@ button.abajo {
  margin-top: -20px;
  color:#ffffff;
  border-radius: 50%;
- background-color: rgb(183 177 177 / 16%);
+ background-color: rgb(183 177 177 / 18%);
  text-align: center;
  line-height: 60px;
  font-size:35px;
@@ -560,7 +561,7 @@ button.abajo {
  transition: all .5s ease;
 }
 .home .controls .prev:hover,
-.home .controls .next:hover{ background-color: #ff5222;}
+.home .controls .next:hover{ background-color:rgba(0,0,0,0.2);}
 .home .controls .prev{left:10px;}
 .home .controls .next{right:10px;}
 .home .indicator{position: absolute;left:50%;bottom:30px;z-index: 2;transform: translateX(-50%);cursor: pointer;}
@@ -702,7 +703,7 @@ button.abajo {
 .flex{width: 100%;height:100%;display: flex;justify-content: space-between;align-items: center;}
 .textos{padding:150px;color:#fff;text-align: center;}
 .textos h1{font-size: 40px;margin-bottom:20px;}
-.textos a{color:#2b2522; font-weight: bold;}
+.textos a{color:#eee; font-weight: bold;}
 .modal{display: none;position: fixed;z-index:100;overflow: auto;left: 0;top:0;width: 100%;height:100%;background: rgba(255, 255, 255, 0.97);}
 .contenido-modal{position: relative;background-color: #fefefe;margin: auto;width: 30%;box-shadow: 0 0 6px 0 rgba(0, 0, 0, .4);animation-name: modal;animation-duration: 1s;}
 @keyframes modal{from{top:-330px; opacity:0;}to{top:0; opacity:1;}}
@@ -859,55 +860,50 @@ button.abajo {
 .bg-contacto {
   width: 100%;
   height:400px;
-  background: url(../img/parallax-contacto.png);
+  background: url(../img/parallax-slider.png);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  position: relative;
-}
-.flex-box{width: 100%;margin: auto;margin-top:0px;margin-bottom:0px; z-index: 10;position: relative;}
-.wrap-contacto{background:#10438a;display: flex;justify-content:center;padding-top: 10px;padding-bottom: 100px;background-size: cover;border-radius:1px;z-index: 999,}
-.wrap-contacto .wrap-formulario{width: 45%;margin: 0;}
-.wrap-contacto .wrap-formulario p{color: #fff;font-size: 16px;margin-bottom: 10px;margin: 0 45px;}
-.wrap-formulario .informacion{ margin-top:40px;flex-direction:row;}
-.wrap-formulario .informacion h3{font-size:20px; text-align: center;color:#ddd; font-weight: bold; }
-.wrap-formulario .informacion b{color: #fff; font-size: 17px;font-family: 'Raleway',sans-serif; font-weight: normal;}
-.wrap-contacto .wrap-formulario .informacion p{color:#fff; text-align: center;}
-.wrap-formulario .informacion i{transition: 0.5s ease; width: 50px;height: 50px;text-align: center;line-height: 43px;border: 1px solid #fff;border-radius: 50%;font-size: 20px;margin: 5px 70px;color: #fff;}
-.wrap-formulario .informacion label{text-decoration: none !important;text-decoration-line: none; -webkit-text-decoration: none;color: #fff !important;margin: -45px;font-size: 20px;}
-.wrap-formulario .informacion #atencion{
-  margin-top: 20px;
-  padding: 5px 8px;
-  margin-left: 11%;
-  background: rgba(59, 115, 179, 0.69);
-  color: #fff;
-  border: 1px solid rgba(59, 115, 179, 0.29);
-  width: 80%;
-  border-radius: 2px;
-  font-size: 16px;
-  text-align: center;
 }
 
+.wrap-contacto{ background:#10438a;display: flex;justify-content:center;padding-top: 10px;padding-bottom: 100px;background-size: cover;border-radius:1px;z-index: 999,}
+.wrap-contacto .wrap-formulario{color: #000;width: 45%;margin: 0; background:#fff;margin-top: -150px; padding: 25px;}
+.wrap-contacto .wrap-formulario p{color:font-size: 16px;margin-bottom: 10px;margin: 0 45px;}
+.wrap-formulario .informacion{ margin-top:40px;flex-direction:row;}
+.wrap-formulario .informacion h3{font-size:20px; text-align: center; font-weight: bold; }
+.wrap-formulario .informacion b{ font-size: 17px;font-family: 'Raleway',sans-serif; font-weight: normal;}
+.wrap-formulario .informacion i{ width: 50px;height: 50px;text-align: center;line-height: 43px;font-size: 20px;margin: 5px 50px;color: #ff7422;}
+.wrap-formulario .informacion label{text-decoration: none !important;text-decoration-line: none; -webkit-text-decoration: none;margin: -50px;font-size: 20px;}
+.wrap-formulario .informacion #compartir{
+  margin-left: 11%;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.wrap-formulario .informacion #compartir a{color:#f7f7f7; background: #c1baba;
+ width: 30px;height: 30px;line-height: 30px;text-align: center;padding: 10px;
+}
 .wrap-contacto .wrap-formulario form{
-  background-color:#fbfbfb;
+  background-color:#fff;
   width: 70%;
   padding: 20px;
-  border-radius:4px;
+  border-radius:7px;
   font-size: 0.6em;
-  border: solid 1px #fbfbfb;
+  border: solid 1px #dedede66;
   margin: 0 auto;
   box-shadow: 0px 0px 2px rgba(255,255,255,255.538);
-  margin-top: -85px;
+  margin-top: 0px;
 }
-.wrap-contacto .wrap-formulario form h4{color: #777;font-family: 'Roboto',sans-serif; font-weight: normal; text-align: center;font-size: 17px;width: 99%;margin: auto;text-transform: uppercase;padding-bottom:8px;border-bottom: 1px solid #EEE;}
+.wrap-contacto .wrap-formulario form h4{color: #222;font-family: 'Roboto',sans-serif; font-weight:bold; text-align: center;font-size: 17px;width: 99%;margin: auto;padding-bottom:8px;border-bottom: 1px solid #EEE;}
 .wrap-contacto .wrap-formulario p{color: #555;padding-top:7px;text-align: justify;font-size: 15px;width:95%;margin: auto;}
 .wrap-contacto .wrap-formulario form .input-campo:focus{border-color: #2a6092;}
 .wrap-contacto .wrap-formulario form .input-campo{
   border: none;
   padding: 8px 0;
-  border-bottom:solid 1px #000; 
+  border:solid 1px #cecbcb; 
   background:none;
   margin: 10px 20px;
+  padding:10px 5px;
   opacity: .8;
   color: #000;
   width: 90%;
@@ -916,7 +912,7 @@ button.abajo {
 .wrap-contacto .wrap-formulario form label{font-size: 16px;color: #111;margin: 10px 0px 10px 20px;}
 .wrap-contacto .wrap-formulario form input, textarea{border: 0;outline: none;width: 280px;border-radius:0px;}
 .wrap-contacto .wrap-formulario form textarea{min-height:70px;max-height:70px;max-width:90%;min-width:86%;}
-.wrap-contacto .wrap-formulario form input[type="submit"]{margin-top:10px; width: 100px;display:block;padding: 10px 20px;color: #fff;font-size: 14px;font-family: 'tahoma', sans-serif;cursor: pointer; transition: all .3s; margin: 0 20px;background-color:#0263bb; }
+.wrap-contacto .wrap-formulario form input[type="submit"]{margin-top:10px; width: 150px;display:block;padding: 10px 20px;color: #fff;font-size: 14px;font-family: 'text', sans-serif;cursor: pointer; transition: all .3s; margin: 0 20px;background-color:#0263bb; }
 .wrap-contacto .wrap-formulario form input[type="submit"]:hover{background-color: #ff6d53;}
 
 
@@ -1026,7 +1022,7 @@ footer{
 .main-copy-redes{width: 98%; max-width: 1000px;padding: 15px 0;margin: auto;display: flex;flex-wrap: wrap;justify-content:space-around;align-items: center;}
 .main-copy-redes .footer-copy{width: 90%;font-size:13px;font-family: 'Poppins',sans-serif;font-weight: normal;text-align: center;color: #adb6c7;opacity: .9;}
 .main-copy-redes .footer-copy a{color: #7dc1ff;font-size:13px;font-family: 'Poppins',sans-serif;text-decoration: none;opacity: .8;}
-
+.main-copy-redes .footer-copy a:hover{ text-decoration: underline;}
 
 /*BUSCADOR INTERNO*/
 .buscador{
@@ -1035,7 +1031,7 @@ footer{
   width: 40px;
   height: 40px;
   transition: .5s;
-  z-index: 1000;
+  z-index: 999;
   right: 20px; 
 }
 
@@ -1044,14 +1040,13 @@ footer{
   height: 30px;
   line-height: 30px;
   font-size: 18px;
-  color:#0d60aba1;
+  color:#555;
   text-align: center;
   position: absolute;
-  top: 50px;
+  top: 47px;
   right:170px;
   cursor: pointer;
- 
-}
+ }
 
 .buscador .icono-buscar:before{
   content: '\f002';
