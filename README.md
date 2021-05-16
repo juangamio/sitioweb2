@@ -1,2 +1,2 @@
 # sitioweb
-diseño  y desarrollo de software
+Diseño  y desarrollo de software
