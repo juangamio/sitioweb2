@@ -387,8 +387,7 @@
               <div class="icon_top" id="icon-btn">
                  <span class="fa fa-angle-double-up"></apan>
               </div>
-    <!--Div where the WhatsApp will be rendered-->  
-          <div id="WAButton"></div>  
+    
     </footer><!-- Footer -->
 
      
@@ -403,10 +402,21 @@
      <script src="js/search.js"></script>
      <script src="js/chat.js"></script>
      <!--JQuery-->  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<!--Floating WhatsApp css-->
-    <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
-<!--Floating WhatsApp javascript-->
-    <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+   <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "968206865", // WhatsApp number
+            call_to_action: "Envíame un mensaje", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+            pre_filled_message: "Hola?", // WhatsApp pre-filled message
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
   </body>
 </html>
