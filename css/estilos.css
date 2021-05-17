@@ -1551,7 +1551,7 @@ footer{
 .contenedor-tag .accordion .heading h4{font-size:15px; font-weight: normal;padding-right:20px}
 .contenedor-tag .accordion{max-width: 550px;margin:50px 3px;}
 /*====Contacto====*/
-.flex-box .wrap-contacto{flex-direction: column-reverse;}
+.flex-box .wrap-contacto{flex-direction: column;}
 .flex-box .wrap-contacto .wrap-formulario{width:98%;margin: auto;}
 .flex-box .wrap-contacto .wrap-formulario form{width:98%;}
 .wrap-contacto .wrap-formulario form input[type="submit"]{-webkit-border-radius:1px;} 
