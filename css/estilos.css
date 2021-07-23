@@ -1556,7 +1556,7 @@ footer{
  background: -webkit-linear-gradient(to right, hsla(228, 90%, 45%, 0.33), hsla(223, 56%, 40%, 0.6)), url(https://cdn.pixabay.com/photo/2015/09/09/21/38/keyboard-933568_960_720.jpg); background-size: cover; background-position: center;
  background: linear-gradient(to right, hsla(228, 90%, 45%, 0.33), hsla(223, 56%, 40%, 0.6)), url(https://cdn.pixabay.com/photo/2015/09/09/21/38/keyboard-933568_960_720.jpg); background-size: cover; background-position: center;
 }
-.enlace-item span.toggle-icon{top: 9px;}
+.enlace-item span.toggle-icon{top: 6px; line-height: 20px; text-align: center;}
 .header-fax .textos{padding:90px 0; width:100%;}
 .header-fax .textos h1{font-size: 20px;font-family: 'Raleway',sans-serif;letter-spacing: 1px;}
 
