@@ -909,7 +909,7 @@ button.abajo {
   box-shadow: 0px 0px 2px rgba(255,255,255,255.538);
   margin-top: 0px;
 }
-.wrap-contacto .wrap-formulario form h4{color: #222;font-family: 'Roboto',sans-serif; font-weight:bold; text-align: center;font-size: 17px;width: 99%;margin: auto;padding-bottom:8px;border-bottom: 1px solid #EEE;}
+.wrap-contacto .wrap-formulario form h4{color: #0d60ab;font-family: 'Roboto',sans-serif; font-weight:bold; text-align: center;font-size: 17px;width: 99%;margin: auto;padding-bottom:8px;border-bottom: 1px solid #EEE;}
 .wrap-contacto .wrap-formulario p{color: #555;padding-top:7px;text-align: justify;font-size: 15px;width:95%;margin: auto;}
 .wrap-contacto .wrap-formulario form .input-campo:focus{border-color: #2a6092;}
 .wrap-contacto .wrap-formulario form .input-campo{
@@ -1567,8 +1567,9 @@ footer{
 .contenedor-tag .accordion{max-width: 550px;margin:50px 3px;}
 /*====Contacto====*/
 .flex-box .wrap-contacto{flex-direction:column;}
-.flex-box .wrap-contacto .wrap-formulario{width:98%;margin: auto;}
-.flex-box .wrap-contacto .wrap-formulario form{width:98%;}
+.flex-box .wrap-contacto .wrap-formulario{width:110%;}
+.flex-box .wrap-contacto .wrap-formulario form{width:100%;padding: 20px 0; margin-left: -4%;}
+.wrap-contacto .wrap-formulario form .input-campo{width: 95%; margin: 10px 10px;}
 .wrap-contacto .wrap-formulario form input[type="submit"]{-webkit-border-radius:1px;} 
 .flex-box .wrap-formulario .informacion h3{font-size: 18px;font-weight: normal;}
 .flex-box .wrap-formulario .informacion label{margin: -55px;font-size:17px;}
