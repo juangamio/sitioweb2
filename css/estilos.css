@@ -1494,9 +1494,9 @@ footer{
 .pagina-container .pagina-contenido .fa-gift{color:#2787b9;}
 .contenedor__inicio{flex-direction:column-reverse;margin-top: 20px;}
 .contenedor__inicio .contenedor-flex{width: 99%; margin: auto;}
-.contenedor__inicio .contenedor-flex .info-items{ width: 200px;height:400px;}
+.contenedor__inicio .contenedor-flex .info-items{width: 100%;height:400px;margin-left: -14%;}
 .articulo-blog .bg-color{background:#fff;}
-.contenedor-flex .info-items .imagen{display: block;width: 200px;height:400px;}
+.contenedor-flex .info-items .imagen{width:100%;height:400px;}
 .articulo-blog .container-proyecto{width: 100%;padding-top:35px;}
 .div-categoria a{background: #066ac5; top: 10px}
 .container{flex-direction:column;}
