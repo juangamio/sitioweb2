@@ -224,6 +224,7 @@ button.abajo {
   -o-transform:scale(1.1,1.1);
   -ms-transform:scale(1.1,1.1);
   -webkit-transform:scale(1.1,1.1);
+   z-index: 10;
 }
 .pagina-container .pagina-contenido h2{color: #666666d1;font-size: 21px;font-weight: normal;vertical-align: baseline;margin: 8px;text-align: center;}
 .pagina-container .pagina-contenido p{font-family: 'Raleway',sans-serif;margin: 20px 72px;color: #666;font-weight: normal;text-align: center;width: 80%;}
@@ -279,8 +280,8 @@ button.abajo {
 .contenedor__inicio .contenedor-flex .imagen{width:100%;height: 100%;}
 .contenedor__inicio .contenedor-flex  h3{margin-bottom: 15px;color:#777;font-size: 23px;font-family: 'Open Sans Condensed', sans-serif;}
 .contenedor__inicio .contenedor-flex  h3 span{
-  background: #0263bb;
-  color: #fff;
+  background: #f7f7f7;
+  color: #000;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -288,13 +289,13 @@ button.abajo {
   height:40px;
   padding: 5px;
   line-height:30px;
-  box-shadow: 0 0 6px 0 rgba(34, 78, 152, 0.83);
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.93);
   margin-right: 5px;
 
 }
 .contenedor__inicio .contenedor-flex  p{padding: 0px 0px 30px 15px;text-align: justify;color: #666;font-size:17px;line-height:25px; }
-.contenedor-flex .info-items{position: relative;width: 250px; height:470px;display: inline-block; left: 20%;}
-.contenedor-flex .info-items .imagen{display: block;margin: 0;padding: 0;opacity: .89;border-radius: 4px; height: 470px; width: 250}
+.contenedor-flex .info-items{position: relative;width: 350px; height:470px;display: inline-block; left: 20%;}
+.contenedor-flex .info-items .imagen{display: block;margin: 0;padding: 0;opacity: .89;border-radius: 4px; height: 470px;}
 .contenedor-flex .info-items .imagen:hover:{opacity:0.1;}
 .overlay-img{position: absolute;transition: all 1s ease-out;opacity: 0;background-color:#eee;transition: 1s;margin: 0;padding: 0;border-radius: 4px; }
 .overlay-img .btn-imagen{
@@ -304,18 +305,13 @@ button.abajo {
   left: 50%;
   transform: translate(-50%,-50%);
   height: 15%;
-  width: 29%;
-  font-family: 'open sans';        
-  padding-bottom:7px;
-  font-weight: normal; 
-  text-align: center;
-  border: 1px solid #ddd;
+  width: 29%;       
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  opacity: .7;
+  opacity: .4;
 
 }
 .info-items:hover .overlay-img{opacity: 0.99;}
@@ -499,8 +495,8 @@ button.abajo {
 .categoria-dos{flex-grow: 2; order:  2;}
 .categoria-tres{flex-grow: 1; order:1; }
 .categoria .div-categoria .imagen{margin-top: 10px; margin-left:3%; }
-.div-categoria a{text-decoration: none;color: #FFF; font-weight: bold; widows: 100%;  padding: 6px 20px;border-radius: 5px;margin-left: 23%;border: 2px solid #fff;text-align: center;transition: .5s all;top: -150px;position: relative;}
-.div-categoria a:hover{background: #ff764b;border: 1px solid #ff764b;color: #fff; border-color:none; box-shadow: .1rem .1rem .1rem rgba(0,0,0,0.2);}
+.div-categoria a{text-decoration: none;color: #ff6d53; font-weight: bold; widows: 100%;  padding: 6px 20px;border-radius: 5px;margin-left: 23%;border: 2px solid #fff;text-align: center;top: -150px;position: relative;}
+.div-categoria a:hover{background: #0669c3;border: 1px solid #0669c3;color: #fff; border-color:none; box-shadow: .1rem .1rem .1rem rgba(0,0,0,0.2);}
 .div-categoria .servicio{position: relative;min-height: 1px;padding-right: 15px;padding-left: 15px;}
 .servicio-caja{background: #1b4871e0;display: block;position: relative;padding: 55px 0;margin-bottom: 35px;box-shadow: none;text-align: center;transition: all .4s ease;}
 .servicio-caja::before{content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0;background:#677d92;transform: scaleY(0);transition-property: transform;transition-duration: .5s;transition-timing-function: ease-out;transform-origin: 50% 0;}
@@ -1217,11 +1213,10 @@ footer{
 .contenedor-categoria .contenido-caja p{
   position: absolute;
   top: 35px;
-  border-left: 3px solid white;
   padding: 0 10px;
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
-  font-weight: 800;
+  font-family: 'Poppins',sans-serif;
   
 }
 .contenedor-categoria .contenido-caja small{
@@ -1232,7 +1227,7 @@ footer{
   text-align: justify;
   font-family: 'Raleway',sans-serif;
   font-weight: normal;
-  padding: 5px 5px;
+  padding: 5px 1px;
 }
 .contenedor-categoria .contenido-caja a{
   position: relative;
@@ -1258,9 +1253,9 @@ footer{
  }
  
 .contenedor-categoria .contenido-caja:hover a{
-  background: #ff764b;
+  background: #3a3838;
   opacity: .99;
-  border-color: #ff764b;
+  border-color: #3a3838;
 }
 .contenedor-categoria:hover .contenido-caja a{
   transform: translateY(0);
@@ -1532,7 +1527,6 @@ footer{
 }
  
 
-
 /*====Página====*/
 .container-web{max-width: 1000px;}
 .home .caption{width: 99%;}
@@ -1557,9 +1551,9 @@ footer{
  background: linear-gradient(to right, hsla(228, 90%, 45%, 0.33), hsla(223, 56%, 40%, 0.6)), url(https://cdn.pixabay.com/photo/2015/09/09/21/38/keyboard-933568_960_720.jpg); background-size: cover; background-position: center;
 }
 .enlace-item span.toggle-icon{top: 6px; line-height: 20px; text-align: center;}
+
 .header-fax .textos{padding:90px 0; width:100%;}
 .header-fax .textos h1{font-size: 20px;font-family: 'Raleway',sans-serif;letter-spacing: 1px;}
-
 .contenido-modal{width: 85%;}
 .modal-header, .creditos{width: 100%;margin: 0; padding: 7px 0px;}
 .contenedor-tag{width: 100%;background:#fff; margin:0;padding: 0;margin-top: 40px;}
@@ -1568,7 +1562,7 @@ footer{
 /*====Contacto====*/
 .flex-box .wrap-contacto{flex-direction:column;}
 .flex-box .wrap-contacto .wrap-formulario{width:110%;}
-.flex-box .wrap-contacto .wrap-formulario form{width:100%;padding: 20px 0; margin-left: -4%;}
+.flex-box .wrap-contacto .wrap-formulario form{width:100%; padding: 20px 0; margin-left: -4%;}
 .wrap-contacto .wrap-formulario form .input-campo{width: 95%; margin: 10px 10px;}
 .wrap-contacto .wrap-formulario form input[type="submit"]{-webkit-border-radius:1px;} 
 .flex-box .wrap-formulario .informacion h3{font-size: 18px;font-weight: normal;}
