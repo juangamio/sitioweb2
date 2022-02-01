@@ -67,7 +67,7 @@ html,h1,h2,h3,h4,h5,h6,p,a,label,span,small{
 .container-header .logo img { width: 170px; margin-top:0px;}
 .container-header .logo a{text-decoration: none;color: #fff;font-size: 26px;margin-left: 5px}
 .container-header .redes-menu{display: flex;  position: relative;}
-.container-header .redes-menu .redes .fa-user-circle{color: #555;}
+.container-header .redes-menu .redes .fa-user-circle{color: #898989;}
 .container-header .redes-menu .redes .fa-user-circle:hover{color: #555;}
 .container-header .redes-menu .redes a{transition: all 500ms ease 0s;
     o-transition: all 500ms ease 0s;
@@ -76,8 +76,8 @@ html,h1,h2,h3,h4,h5,h6,p,a,label,span,small{
     -webkit-transition: all 500ms ease 0s;position: relative;text-decoration: none;color: #000;font-size: 19px;top: 2px;margin-right:25px; transition: .4s ease-in;}
 .container-header .redes-menu .redes a:hover{background: #066ac5 none repeat scroll 0 0; color: #fff; border-color:none;}
 .container-header .redes-menu .menu{position: relative;width: 27px;height: 27px;cursor: pointer;top: 3px;z-index: 999;}
-.container-header .redes-menu .menu .line{position: absolute;width: 100%;height: 2px;background: #000;border-radius: 2px; transition: all .3s;}
-.container-header .redes-menu .menu-label{position: relative; top:3px;margin-right:15px; color: #000;}
+.container-header .redes-menu .menu .line{position: absolute;width: 100%;height: 2px;background: #898989;border-radius: 2px; transition: all .3s;}
+.container-header .redes-menu .menu-label{position: relative; top:3px;margin-right:15px; color: #898989;}
 .container-header .redes-menu .menu .line1{top: 0%;}
 .container-header .redes-menu .menu .line2{top: 30%;}
 .container-header .redes-menu .menu .line3{top: 60%;}
@@ -1054,7 +1054,7 @@ footer{
   height: 30px;
   line-height: 30px;
   font-size: 18px;
-  color:#555;
+  color:#898989;
   text-align: center;
   position: absolute;
   top: 47px;
