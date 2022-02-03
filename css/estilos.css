@@ -1054,7 +1054,7 @@ footer{
   height: 30px;
   line-height: 30px;
   font-size: 18px;
-  color:#898989;
+  color:#7a7c80;
   text-align: center;
   position: absolute;
   top: 47px;
@@ -1069,7 +1069,7 @@ footer{
 .buscador.active .icono-buscar:before{
   content: '\f00d';
   font-family: fontAwesome;
-  color: #0d60aba1;
+  color: #8593a0a1;
   font-size: 30px;
 }
 
@@ -1120,7 +1120,7 @@ footer{
   right: 2%;
   cursor: pointer;
   font-size: 30px;
-  color: #ddd;
+  color: #6a6767;
   position: absolute;
   outline: none;
   } 
