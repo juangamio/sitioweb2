@@ -730,7 +730,7 @@ button.abajo {
 .modal-body form{width: 100%;padding: 20px;color: #fff;margin: 0 auto;}
 .modal-body form .input-campo{ border-bottom:solid 1px #d9d9d9;padding: 10px 22px;background:none;margin: 18px 4px;opacity: .9;color: #000;width: 100%;user-select: none;}
 .modal-body form .input-campo::placeholder{color:#d2cfcf;padding-left: 3px;}
-.modal-body form label{font-size: 15px;color: #999;margin: 10px 10px;}
+.modal-body form label{font-size: 15px;color: #121212;margin: 10px 10px;}
 .modal-body form .input-campo:focus{border-color:#0263bb;}
 .modal-body form input{padding-left: 20px; border: 0;outline: none;width: 280px;border-radius:0px;}
 .modal-body form input[type="submit"]{
