@@ -498,7 +498,7 @@ button.abajo {
 .categoria-dos{flex-grow: 2; order:  2;}
 .categoria-tres{flex-grow: 1; order:1; }
 .categoria .div-categoria .imagen{margin-top: 10px; margin-left:3%; }
-.div-categoria a{text-decoration: none;color: #ff6d53; font-weight: bold; widows: 100%;  padding: 6px 20px;border-radius: 5px;margin-left: 23%;border: 2px solid #fff;text-align: center;top: -150px;position: relative;}
+.div-categoria a{background-color: darkred; text-decoration: none;color: #fff; font-weight: bold; widows: 100%;  padding: 6px 20px;border-radius: 5px;margin-left: 23%;border: 2px solid #fff;text-align: center;top: -150px;position: relative;}
 .div-categoria a:hover{background: #0669c3;border: 1px solid #0669c3;color: #fff; border-color:none; box-shadow: .1rem .1rem .1rem rgba(0,0,0,0.2);}
 .div-categoria .servicio{position: relative;min-height: 1px;padding-right: 15px;padding-left: 15px;}
 .servicio-caja{background: #1b4871e0;display: block;position: relative;padding: 55px 0;margin-bottom: 35px;box-shadow: none;text-align: center;transition: all .4s ease;}
