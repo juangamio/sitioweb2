@@ -81,9 +81,9 @@ html,h1,h2,h3,h4,h5,h6,p,a,label,span,small{
 .container-header .redes-menu .menu .line1{top: 0%;}
 .container-header .redes-menu .menu .line2{top: 30%;}
 .container-header .redes-menu .menu .line3{top: 60%;}
-.container-header .redes-menu .menu.close .line1{transform: rotate(45deg);top: 30%;}
-.container-header .redes-menu .menu.close .line2{transform: rotate(45deg);top: 30%;}
-.container-header .redes-menu .menu.close .line3{transform: rotate(-45deg);top:30%;}
+.container-header .redes-menu .menu.close .line1{transform: rotate(45deg);top: 30%;color:#085;}
+.container-header .redes-menu .menu.close .line2{transform: rotate(45deg);top: 30%;color:#085;}
+.container-header .redes-menu .menu.close .line3{transform: rotate(-45deg);top:30%;color:#085;}
 
 /*==Estilos fullmenu==*/
 .full-menu{
