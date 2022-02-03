@@ -77,13 +77,13 @@ html,h1,h2,h3,h4,h5,h6,p,a,label,span,small{
 .container-header .redes-menu .redes a:hover{background: #066ac5 none repeat scroll 0 0; color: #fff; border-color:none;}
 .container-header .redes-menu .menu{position: relative;width: 27px;height: 27px;cursor: pointer;top: 3px;z-index: 999;}
 .container-header .redes-menu .menu .line{position: absolute;width: 100%;height: 2px;background: #898989;border-radius: 2px; transition: all .3s;}
-.container-header .redes-menu .menu-label{position: relative; top:3px;margin-right:15px; color: #898989;}
+.container-header .redes-menu .menu-label{position: relative; top:3px;margin-right:15px; color: #383030;}
 .container-header .redes-menu .menu .line1{top: 0%;}
 .container-header .redes-menu .menu .line2{top: 30%;}
 .container-header .redes-menu .menu .line3{top: 60%;}
-.container-header .redes-menu .menu.close .line1{transform: rotate(45deg);top: 30%;background-color: #085;}
-.container-header .redes-menu .menu.close .line2{transform: rotate(45deg);top: 30%; background-color: #085;}
-.container-header .redes-menu .menu.close .line3{transform: rotate(-45deg);top:30%;}
+.container-header .redes-menu .menu.close .line1{transform: rotate(45deg);top: 30%;background-color: #ff1744;}
+.container-header .redes-menu .menu.close .line2{transform: rotate(45deg);top: 30%;background-color:#ff1744;}
+.container-header .redes-menu .menu.close .line3{transform: rotate(-45deg);top:30%;background-color:#ff1744;}
 
 /*==Estilos fullmenu==*/
 .full-menu{
