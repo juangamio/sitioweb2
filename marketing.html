@@ -9,11 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
      
-
-     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" type="imag/ico" href="img/favicon.png"> 
+     
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="imag/ico" href="img/favicon.ico"> 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,14 +26,15 @@
     <div id="navbar">
         <div class="principal-cabecera">
           <div class="cabecera">
-              <span class="fa fa-phone"><label>(+51) 968 206 865</label></span>
-              <span class="fa fa-envelope-o"><label>juancolquegamio@gmail.com</label></span>
-              <a href="https://api.whatsapp.com/send?phone=51968206865&text=&source=&data=&app_absent=" target="_blank" title="CHATEA"><i class="fa fa-comment-o"></i> chat</a>
+              <span class="icon-contacto"><img src="img/telefono_top.png">
+                <label>(+51) 968206865</label></span>
+                <span class="icon-contacto"><img src="img/correo_top.png">
+                <label>hola@jota.com</label></span>
               <div class="sociales-nav">
                <a href="https://www.facebook.com/profile.php?id=100009234873473" target="_blank"><i class="fa fa-facebook"></i></a>
                <a href="https://twitter.com/jcolquegamio" target="_blank"><i class="fa fa-twitter"></i></a>
                <a href="https://www.instagram.com/juangamio8/" target="_blank"><i class="fa fa-instagram"></i></a>
-               <a href="https://www.linkedin.com/in/juan-ccolque-gamio/" target="_blank"><i class="fa fa-linkedin"></i></a>
+               <a href="https://www.linkedin.com/in/juan-ccolque-gamio/" target="_blank"><i class="fa fa-linkedin"></i></a> 
             
               </div> 
           </div>
@@ -42,12 +45,7 @@
           </div>
           <div class="redes-menu">
             <div class="redes">
-              <small class="ver-info">
-              <a href="acerca.html" class="fa fa-user-circle" style="background: none;"></a>
-              <span class="info-box">Acerca de mi</span>
-              </small>
-
-              <a href="contacto.html" class="btn_boton" style="border:1px solid #0d60aba1; padding: 7px 12px;border-radius: 22px;font-size: 15px;">Comenzar</a>
+              <a href="contacto.html" class="btn_boton">Comenzar</a>
             </div>
             <div class="menu-label">
               <label>Menú |</label>
@@ -58,15 +56,23 @@
               <span class="line line3"></span>  
             </div>  
           </div>
+          <div class="buscador"><!-- BUSCADOR -->
+            <div class="icono-buscar"></div>
+            <div class="form-buscar">
+              <form>
+               <input type="text" name="" placeholder="Escriba aquí enter......" >
+              <button class="button-buscar fa fa-search"></button>
+             </form>
+            </div>
+          </div><!-- /BUSCADOR-->
        </div>
             <nav class="full-menu">
               <ul>
                 <li class="active"><a href="index.html">Inicio</a></li>
                 <li><a href="paginas.html">Páginas</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="tienda.html">Tiendas</a></li>
                 <li><a href="marketing.html">Marketing</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="faqs.html">Faq's</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
               </ul>
             </nav>
@@ -74,21 +80,30 @@
   </header><!--menu-->
 <section class="home"><!--slider pagina-->
        <div class="slider">
-          <div class="slide active" style="background-image: url('img/parallax-slider.png')">
+          <div class="slide active" style="background-image: url('img/slider-marketing.jpg')">
               <div class="container-web">
                   <div class="caption">
-                      <h1 style="color: #FFF;"><strong style="color: #FFF;">Estrategias de</strong> Marketing</h1>
-                      <p id="master-text"> De comercialización llevadas a cabo en los medios digitales</p>
+                      <h1 style="color: #fff;"><strong>Marketing </strong> Digital </h1>
+                      <p id="master-text"> Comercialización llevadas a cabo en los medios digitales</p>
                       <a href="#" id="abrir">Solicitar ahora <span class="fa fa-angle-double-right"></span> </a>
                   </div>
               </div>
           </div>
-          <div class="slide" style="background-image: url('img/slider-portada.jpg')">
+          <div class="slide" style="background-image: url('img/slider-3.jpg')">
               <div class="container-web">
                   <div class="caption">
-                      <h1 style="color: #FFF;"><strong >Web SEO</strong>  en Buscadores</h1>
-                      <p>Estrategias para posicionar tu página en Google</p>
+                      <h1 style="color: #000;"><strong >Web SEO</strong>  en Buscadores</h1>
+                      <p style="color: #000;">Estrategias para posicionar tu página en Google</p>
                       <a href="web-seo.html">Conocer más</a>
+                  </div>
+              </div>
+          </div>
+          <div class="slide" style="background-image: url('https://enriquez.pe/wp-content/uploads/2021/11/tienda-virtual-2.webp')">
+              <div class="container-web">
+                  <div class="caption">
+                      <h1 style="color: #FFF;"><strong >Tiendas</strong>  Virtuales</h1>
+                      <p>Incementa tu ganancias con una ecommerce online</p>
+                      <a href="web-seo.html">Quiero mi tienda</a>
                   </div>
               </div>
           </div>
@@ -100,42 +115,42 @@
       </div>
       <!-- indicador -->
        <div class="indicator"></div>
-       <button class="abajo" id="top-abajo" id="top-ver"></button>
   </section><!-- /end slider página-->
 
 <div class="herramientas-marketing"><!--==herramientas==-->
-        <div class="busqueda">
+        <div class="busqueda" data-aos="zoom-in" data-aos-duration="1700">
             <span class="fa fa-google-plus"></span>
-            <h4>marketing<br>web</h4>
-            <p>logramosque tu negocio destque  losprimerosresultados,obtniendo una gran cntidad de vistas altamente calificados</p> 
+            <h4 class="animate__fadeInLeftBig" >SEARCH ENGINE<br>buscadores</h4>
+            <p>Ago que su negocio destque  en los primeros resultados,obtniendo una gran cantidad de vistas altamente calificados</p> 
         </div>
-        <div class="busqueda">
+        <div class="busqueda" data-aos="zoom-in" data-aos-duration="2000">
             <span class="fa fa-bullhorn"></span>
             <h4>publicidad en<br>web</h4>
-            <p>logramosque tu negocio destque  losprimerosresultados,obtniendo una gran cntidad de vistas altamente calificados</p> 
+            <p>Aumenta la visibilidad de las páginas web en los buscadores mediante el pago directo de publicidad al propio motor de búsqueda.</p> 
         </div> 
-        <div class="busqueda">
+        <div class="busqueda" data-aos="zoom-in" data-aos-duration="2200">
             <span class="fa fa-search"></span>
-            <h4>seo en<br>buscadores</h4>
-            <p>logramosque tu negocio destque  losprimerosresultados,obtniendo una gran cntidad de vistas altamente calificados</p> 
+            <h4>Seguimiento y análisis<br> de resultados</h4>
+            <p>Realizar un seguimiento extensivo, temporal, comparativo y en tiempo real sobre el desempeño de tu sitio.</p> 
         </div> 
-        <div class="busqueda">
+        <div class="busqueda" data-aos="zoom-in" data-aos-duration="2700">
             <span class="fa fa-twitter"></span>
-            <h4>social media<br>en internet</h4>
-            <p>logramosque tu negocio destque losprimerosresultados,obtniendo una gran cntidad de vistas altamente calificados</p> 
+            <h4>social media<br>marketing</h4>
+            <p>Construir, gestionar y moderar comunidades en torno a una marca en Internet utilizando herramientas como: Facebook, Twitter y otras.</p> 
         </div>  
     </div><!--===herramientas==-->
     <div class="div-anuncio">
-      <div class="div-digital">
-        <h4>Campañas de Publicidad Online</h4>
+      <div class="div-digital" data-aos="fade-right"
+            data-aos-easing="linear" data-aos-duration="1000">
+        <h4>CAMPANAS DE PUBLICIDAD  <br><strong style="font-size: 49px;"> EN MEDIOS DIGITALES</strong></h4>
         <span>Lleva el sitio web de tu negocio a los ojos de tus clientes con publicidadd digital.</span><br>
         <hr>
-        <b>Publicidad en Google, Facebook, Instagram Youtube twitter y muchos más</b>
-        <p>El Diseño de página web de una empresa es su carta de presentación ante el mundo, la calidad de su servicio.</p>
+        <b>Publicidad en Google, Facebook, Instagram Youtube Twitter y muchos más</b>
+        <p>Ahora cualquier empresa puede hacer publicidad en línea gracias a las múltiples plataformas disponibles a sin necesidad de invertir grandes cantidades. Como agencia de MKT digital nos encargamos crear campañas exitosas para tu negocio y de maximizar los resultados de tu inversión, consiguiendo el mayor número de tráfico a tu página web.</p>
         
       </div>
        <div class="div-digital">
-        <h4>Plataformas</h4>
+        <h4 style="color: #fff;">PLATAFORMAS</h4>
          <div class="tag-despegar">
           <a href="#" class="btn__abrir"><i class="fa fa-facebook-f" style="padding: 4px 10px"></i>Facebook<span class="icon"></span></a>
           <div class="contenido-li">
@@ -186,18 +201,10 @@
       </div>
   
       </div> 
+
     </div><!--end-->
-    <div class="proyecto">
-          <strong>
-            <a href="contacto.html"><span style="color: #ffb600;text-transform: uppercase;">¡comunicate conmigo!:</span>  968 206 865 <span style="color: #ffb600;">(Consultas)</span></a>
-          </strong>
-         </div>
-
+     
 <style >
-
-/*===============
-  ESTILOS INICIO
- ================*/
 
 .herramientas-marketing{
   width: 100%;
@@ -252,16 +259,16 @@
 .div-anuncio .div-digital{width: 40%;margin:2%;}
 .div-anuncio .div-digital h4{
   color: #f5b907;
-  font-size: 35px;
-  font-weight: 800;
+  font-size: 30px;
   line-height: 56px;
-  font-family: tahoma;
+  font-weight: bold !important;
+
 }
 .div-anuncio .div-digital span{
   color: #fff;
-  font-family: 'Poppins';
+  font-family: 'tahoma';
   font-size: 20px;
-  font-weight: bold;
+  
 }
 .div-anuncio .div-digital hr {
     max-width: 80px;
@@ -300,17 +307,17 @@
    padding: 4px 4px;
    font-size: 21px;
    border-radius: 50px;
-   color:#175dad;     
+   color:#3e4650;     
 }
 .tag-despegar .btn__abrir span.icon:before {
-    content:"+";
+    content:"\f0d7";
     font-family:FontAwesome;
-    color: #175dad;
-    font-size: 18px;
+    color: #3e4650;
+    font-size: 15px;
     opacity: .9;
 }
 
-.tag-despegar .btn__abrir.open span.icon:before {content:"-";font-family:FontAwesome;}
+.tag-despegar .btn__abrir.open span.icon:before {content:"\f0d8";font-family:FontAwesome;}
 .tag-despegar .btn__abrir span.icon {
     position: absolute;
     top: 10px;
@@ -348,40 +355,52 @@
 <footer><!-- Footer -->
           <div class="footer-section">
             <div class="footer-item">
-              <h6>Informacion Contacto</h6>
-              <span><i class="fa fa-envelope-o"></i> juancolquegamio@gmail.com</span><br><br>
-              <span><i class="fa fa-phone"></i> Teléfono: +51 968206865</span><br><br>
-            </div>
-            <div class="footer-item">
-                 <h6>Servicios</h6>
-                  <a href="web-seo.html">Web SEO en buscadores</a><br><br>
-                  <a href="tienda.html">Tiendas virtuales</a><br>
-            </div>
-            <div class="footer-item">
-              <h6>Redes Sociales</h6>
-             <div class="icon-social">
+              <img src="img/logo-footer.png" width="150" height="30"  style="opacity: .8;">
+              <p>Soy un desarollador Front End, especialista en Diseño web y desarrollo de sistemas personalizadas</p>
+              <h6>Sigueme en </h6>
+              <div class="icon-social">
                 <a href="#"><span class="fa fa-facebook"></span></a>
                 <a href="#"><span class="fa fa-twitter"></span></a>
                 <a href="#"><span class="fa fa-linkedin"></span></a>
                 <a href="#"><span class="fa fa-instagram"></span></a>
-                <a href="#"><span class="fa fa-github"></span></a>
+
+            </div> 
             </div>
+
+            <div class="footer-item" >
+                 <h6>Servicios</h6>
+                  <a href="paginas.html">+ Páginas web </a><br><br>
+                  <a href="web-seo.html">+ Posicionamiento SEO</a><br><br>
+                  <a href="tienda.html">+ Tiendas virtuales</a><br>
+                  
+            </div>
+            
+            <div class="footer-item">
+             <h6>Contacto</h6>
+              <i class="fa fa-phone-square"></i><span> <b>Teléfono :</b> +51  968206865</span><br><br>
+              <i class="fa fa-envelope"></i><span><b> Email :</b> hola@jota.com</span><br><br>
+
 
           </div><!--===footer pricipal===-->
               <div class="footer-copy-redes"><!--===footer copy===-->
                  <div class="bg-footer"></div>
                   <div class="main-copy-redes">
                     <div class="footer-copy">
-                         &copy; 2021 Todo los Derechos Reservados | Política de cookies |   Diseñado por :<a href="acerca.html"> Juan</a> <a href="site-map.html" style="color: #fff;" > Site map</a> 
+
+                          &copy; 2022 Derechos Reservados | Politica de cookies   
                     </div>
+                    <div class="footer-copy">
+                      Desarrollado por:<a href="#"> Juan</a>
+                    
+                    </div>
+                    
                   </div>
               </div>
               <div class="icon_top" id="icon-btn">
-                 <span class="fa fa-angle-double-up"></apan>
+                 <span class="fa fa-arrow-up"></apan>
               </div>
-    </footer><!-- Footer -->
 
-      
+      </footer>
 
      <script src="js/jquery-3.2.1.js"></script>
      <script src="js/menu.js"></script>
@@ -391,6 +410,11 @@
      <script src="js/loader.js"></script>
      <script src="js/scroll.js"></script>
      <script src="js/search.js"></script>
+     <script src="js/scroll-animate.js"></script>
      <script src="js/mostrar-dato.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
   </body>
 </html>

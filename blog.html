@@ -11,7 +11,7 @@
      
 
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" type="imag/ico" href="img/favicon.png"> 
+    <link rel="icon" type="imag/ico" href="img/favicon.ico"> 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -24,33 +24,31 @@
     <div id="navbar">
         <div class="principal-cabecera">
           <div class="cabecera">
-              <span class="fa fa-phone"><label>(+51) 968 206 865</label></span>
-              <span class="fa fa-envelope-o"><label>juancolquegamio@gmail.com</label></span>
-              <a href="https://api.whatsapp.com/send?phone=51968206865&text=&source=&data=&app_absent=" target="_blank" title="CHATEA"><i class="fa fa-comment-o"></i> chat</a>
+              <span class="icon-contacto"><img src="img/telefono_top.png">
+                <label>(+51) 968206865</label></span>
+                <span class="icon-contacto"><img src="img/correo_top.png">
+                <label>hola@jota.com</label></span>
               <div class="sociales-nav">
                <a href="https://www.facebook.com/profile.php?id=100009234873473" target="_blank"><i class="fa fa-facebook"></i></a>
                <a href="https://twitter.com/jcolquegamio" target="_blank"><i class="fa fa-twitter"></i></a>
                <a href="https://www.instagram.com/juangamio8/" target="_blank"><i class="fa fa-instagram"></i></a>
-               <a href="https://www.linkedin.com/in/juan-ccolque-gamio/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            
+               <a href="https://www.linkedin.com/in/juan-ccolque-gamio/" target="_blank"><i class="fa fa-linkedin"></i></a> 
+        
               </div> 
           </div>
         </div>
         <div class="container-header">
           <div class="logo">
-            <a href="index.html"><img src="img/logo.png" width="40" alt="logo-codigo-jota"></a> 
+            <a href="index.html">
+            <a href="index.html"><img src="img/logo.png" width="40" alt="logo-codigo-jota"></a>
+            
           </div>
           <div class="redes-menu">
             <div class="redes">
-              <small class="ver-info">
-              <a href="acerca.html" class="fa fa-user-circle" style="background: none;"></a>
-              <span class="info-box">Acerca de mi</span>
-              </small>
-
-              <a href="contacto.html" class="btn_boton" style="border:1px solid #0d60aba1; padding: 7px 12px;border-radius: 22px;font-size: 15px;">Comenzar</a>
+              <a href="contacto.html" class="btn_boton">Comenzar</a>
             </div>
             <div class="menu-label">
-              <label>Menú |</label>
+              <label>Menú</label> 
             </div>
             <div class="menu" id="btn-menu">
               <span class="line line1"></span>
@@ -58,99 +56,175 @@
               <span class="line line3"></span>  
             </div>  
           </div>
+          <div class="buscador"><!-- BUSCADOR -->
+            <div class="icono-buscar"></div>
+            <div class="form-buscar">
+              <form>
+               <input type="text" name="" placeholder="Escriba aquí enter......" >
+              <button class="button-buscar fa fa-search"></button>
+             </form>
+            </div>
+          </div><!-- /BUSCADOR-->
        </div>
             <nav class="full-menu">
               <ul>
                 <li class="active"><a href="index.html">Inicio</a></li>
                 <li><a href="paginas.html">Páginas</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="tienda.html">Tiendas</a></li>
                 <li><a href="marketing.html">Marketing</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="faqs.html">Faq's</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
               </ul>
             </nav>
+
       </div>  
   </header><!--menu-->
-
-  <div class="container-banner"><!--banner-->
-    <div class="bienvenido">
-      <div class="banner">
-        <div class="descripcion">
-           <h1>Blog</h1>
-          <p> Lo último en tendencias digitales</p><br><br>
-          <a href="#" id="boton" style="color: #ff5722">Inicio/</a> Blog
-        </div>  
+  <div class="header-banner"><!-- Banner header -->
+       <div class="bienvenido">
+         <h1> Blog</h1>
+         <p>Inicio / Blog<p>
+         <a href="#" class="animacion icon-abajo fa fa-angle-double-down" id="top-abajo"></a> 
+       </div> 
+        <div class="skew-abajo"></div>      
       </div>  
-    </div>
-     <div class="skew-abajo"></div>  
-  </div><!--banner-->
 
+     <div class="social-redes"><!--redes sociales-->
+    <ul>
+      <li class="twitter">
+        <a href="">Twitter
+          <i class="fa fa-twitter"></i>
+        </a>  
+      </li>
+    </ul>
+    <ul>
+      <li class="facebook">
+        <a href="">Facebook
+          <i class="fa fa-facebook"></i>
+        </a>  
+      </li>
+    </ul>
+    <ul>
+      <li class="google-plus">
+        <a href="">linkedin
+          <i class="fa fa-linkedin"></i>
+        </a>  
+      </li>
+    </ul>
+    <ul>
+      <li class="instagram">
+        <a href="">Intagram
+          <i class="fa fa-instagram"></i>
+        </a>  
+      </li>
+    </ul> 
+  </div><!--/redes-->
 
-   <div class="div contenedor" >
+ <section class="acerca-de"><!-- diseño web -->
+      <div class="info-container">
+        <h1 style="text-align: center;color: #03abdd; text-transform: uppercase;"> Noticias y novedades</h1>
+        <br>
+        <p>El Diseño de página web de una empresa es su carta de presentación ante el mundo,la calidad de su sitio web  tiene que reflejar, la calidad de sus productos y servicios que ofrece. Desarrollo sitios web que se ajuste a las necesidades de su empresa que buscan el mayor impacto a la hora de promocionar o marketear su producto en internet.</p><br>
+      </div>  
+</section>
+<div class="div contenedor" >
     <article class="article item item-uno"><!--articulo uno-->
       <div class="contenido">
-          <img src="img/vender-en-amazon.jpg">
-          <h3>Cómo Vender en Amazon: Guía 2021 + 5 Trucos Infalibles</h3>
-          <p>¿Sabías que Amazon es el mayor marketplace que existe en la actualidad? Gracias a su servicio de atención al cliente, a su rapidez en los envíos y a que vende todo tipo de productos a un precio muy competitivo, muchos usuarios acuden directamente a Amazon cuando buscan cualquier producto. </p><p>Así que si tienes una tienda online y quieres aumentar las ventas con otro canal, lee con atención esta guía porque te voy a contar cómo vender en Amazon paso a paso, y además, quédate hasta el final porque te contaré 5 trucos y consejos SEO para adelantar a tu competencia.</p>
+        <div class="box_post">
+          <img src="https://visionindustrial.com.mx/wp-content/uploads/2021/06/Internet-de-las-cosas-ch.jpg">
+          <p>Posted by Juan</p>
+          <h3>El internet de las cosas…parte de la vida diaria</h3>
+          <p>El Internet de las cosas (IoT) es el proceso que permite conectar elementos físicos cotidianos al Internet: desde objetos domésticos comunes, como las bombillas de luz, hasta recursos para la atención de la salud...</p>
 
-      </div>
-    </article><!--articulo uno-->
-
-
-
-    <article class="article item item-dos"><!--articulo dos-->
+          <a href="web-seo.html">leer más</a>
+        </div>
+      </div><br><br><br>
       <div class="contenido">
-      <img src="https://5.imimg.com/data5/IS/JK/ES/SELLER-86274983/magento-services-500x500.png">
-      <h3>¿QUÉ ES UN CMS?</h3>
-       <p>A la pregunta, damos la respuesta “Content Manager System” o en español Sistema de Gestión de Contenidos,  un sistema que permite la creación y administración de contenidos, principalmente en páginas web.</p>   
-     </div>
+        <div class="box_post">
+          <img src="img/economia.jpg">
+          <h3>¿Cómo afecta el COVID-19 a las Economias?</h3>
+          <p>El impacto súbito y generalizado de la pandemia del coronavirus y las medidas de suspensión de las actividades que se adoptaron para contenerla han ocasionado una drástica contracción de la economía mundial...</p>
+          <a href="web-seo.html">leer más</a>
+        </div>
+      </div><br><br><br>
+      <div class="contenido">
+        <div class="box_post">
+          <img src="https://infimg.com/bimg/2018/04/tienda_online.png">
+          <h3>La evolución del e-Commerce en tiempos de Pandemia</h3>
+          <p>El comercio electrónico ha dejado de ser una tendencia. Se ha convertido en una solución, por no decir obligación, para vender durante la pandemia. ...</p>
+          <a href="tienda.html">leer más</a>
+          </div>
+      </div>
+      
     </article><!-- end articulo dos-->
 
 
 
     <article class="article item item-tres"><!--articulo tres-->
       <div class="lateral">
-        <h4>Post recientes</h4><br>
+        <h4 style="font-weight: normal; text-align: left;">Categorias</h4><br>
          <ul>
-            <a href="web-seo.html" class="enlaces">Web SEO</a>
-           <a href="tienda.html" class="enlaces">Tienda Virtual</a>
+          <a href="paginas.html" class="enlaces">> Paginas web</a>
+          <a href="blog.html" class="enlaces">> Blog</a>
+          <a href="web-seo.html" class="enlaces">> SEO</a>
+          <a href="tienda.html" class="enlaces">> Tiendas virtuales</a>
+          <a href="marketing.html" class="enlaces">> Marketing</a>
+          <a href="#" class="enlaces">> Landing pages</a>
+          <a href="index.html" class="enlaces">> Home pages</a>
+          <a href="#" class="enlaces">> Branding</a>
         </ul> 
       </div><br>
-  
+       
        <div class="lateral">
-          <p>Desarrollo de ecommerce,vender es posible por internet</p>
-          <a href="tienda.html"><img src="https://www.staffcreativa.pe/blog/wp-content/uploads/blog1-1.jpg" width="150" height="" title="visitar" alt="tienda virtual para vender en internet"></a>
+        <h5>Tienda online</h5>
+          <p>Diseño y desarrollo de ecommerce,vende es posible por internet</p><br>
+          <a href="tienda.html"><img src="img/tienda-virtual.jpg" width="250" title="visitar" alt="tienda virtual para vender en internet"></a>
       </div>
-
-    </article><!-- end articulo tres-->  
+       
+    </article><!-- end articulo tres-->
+    
   </div>
 
 
 <style type="text/css">
+
   
-.div{width: 95%;color: #555;margin: auto;height:auto;margin-bottom:70px;margin-top: 130px;}
-.contenedor{display: flex;justify-content: center;}
- .article{
-  width: 30%;
+.div{
+  width: 95%;
+  color: #555;
+  margin: auto;
   height:auto;
-  border:solid 1px #f5f5f55e;
-  text-align: center;
+  margin-bottom:70px;
+  margin-top: 13px;
+}
+.contenedor{display: flex;justify-content: center; flex-wrap: wrap;}
+ .article{
+  width: 40%;
+  height:auto;
   margin: 4px;
   padding: 10px;
+  padding: 50px;
+  z-index: 10;
+
 }
-.article .contenido a{text-decoration:none; padding:2px 5px;  margin:10px;font-size: 15px; color: #ff5722; font-family: 'Raleway'; border-bottom:  1px dotted #ff5722;}
-.article .contenido h3{text-transform: uppercase;margin-bottom:20px;margin-top:15px;  color: #3b82c3;font-weight: 300;}
+.article .contenido a{border-radius: 33px; text-decoration:none; padding:10px 18px;  margin:10px;font-size: 15px; color: #777; font-family: 'Raleway'; border:1px dotted #777;}
+.article .contenido h3{margin-bottom:20px;margin-top:15px; color: #03abdd;font-weight: 500;}
 .article .contenido p{margin-bottom:20px; font-size: 18px;text-align: justify; color: #777;}
-.article .contenido img{width:100%;margin-top:20px;border-radius: 4px; transition: .5s ease;}
-.article .contenido img:hover{opacity:.5;cursor: pointer;}
+.article .contenido img{box-sizing: border-box; width:100%; height: 270px;margin-top:20px;transition: all .11s; }
 .item-uno{flex-grow: 2;}
 .item-dos{flex-grow: 2;}
 .item-tres{flex-basis: 300px;}
-.article .lateral h4{margin-bottom:10px;  font-size: 17px; font-family: 'Raleway',sans-serif; text-transform: uppercase; font-weight: normal;}
-.article .lateral ul a{color: #968d8d; margin:0px 10px;text-decoration: none; font-size: 16px;display: block; text-align: justify;}
+.article .lateral h5{margin-bottom:10px;  font-size: 17px; font-family: 'Raleway',sans-serif; text-transform: uppercase; font-weight: normal;}
+.article .lateral ul a{color: #03abdd; margin:10px 10px;text-decoration: none; font-size: 16px;display: block; text-align: justify;}
 .article .lateral ul a:hover{color: #ff5722;}
 
+.box_post {
+    padding: 2px 0;
+    background: url(img/flip.jpg) 0 bottom repeat-x;
+    font-size: 16px;
+    color: #586371;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
 
 
 @media only screen and (max-width: 400px){
@@ -167,36 +241,49 @@
   <footer><!-- Footer -->
           <div class="footer-section">
             <div class="footer-item">
-              <h6>Informacion Contacto</h6>
-              <span><i class="fa fa-envelope-o"></i> juancolquegamio@gmail.com</span><br><br>
-              <span><i class="fa fa-phone"></i> Teléfono: +51 968206865</span><br><br>
-            </div>
-            <div class="footer-item">
-                 <h6>Servicios</h6>
-                  <a href="web-seo.html">Web SEO en buscadores</a><br><br>
-                  <a href="tienda.html">Tiendas virtuales</a><br>
-            </div>
-            <div class="footer-item">
-              <h6>Redes Sociales</h6>
-             <div class="icon-social">
+              <img src="img/logo-footer.png" width="150" height="30"  style="opacity: .8;">
+              <p>Soy un desarollador Front End, especialista en Diseño web y desarrollo de sistemas personalizadas</p>
+              <h6>Sigueme en </h6>
+              <div class="icon-social">
                 <a href="#"><span class="fa fa-facebook"></span></a>
                 <a href="#"><span class="fa fa-twitter"></span></a>
                 <a href="#"><span class="fa fa-linkedin"></span></a>
                 <a href="#"><span class="fa fa-instagram"></span></a>
-                <a href="#"><span class="fa fa-github"></span></a>
+
+            </div> 
             </div>
+
+            <div class="footer-item" >
+                 <h6>Servicios</h6>
+                  <a href="paginas.html">+ Páginas web </a><br><br>
+                  <a href="web-seo.html">+ Posicionamiento SEO</a><br><br>
+                  <a href="tienda.html">+ Tiendas virtuales</a><br>
+                  
+            </div>
+            
+            <div class="footer-item">
+             <h6>Contacto</h6>
+              <i class="fa fa-phone-square"></i><span> <b>Teléfono :</b> +51  968206865</span><br><br>
+              <i class="fa fa-envelope"></i><span><b> Email :</b> hola@jota.com</span><br><br>
+
 
           </div><!--===footer pricipal===-->
               <div class="footer-copy-redes"><!--===footer copy===-->
                  <div class="bg-footer"></div>
                   <div class="main-copy-redes">
                     <div class="footer-copy">
-                          &copy; 2021 Todo los Derechos Reservados | Política de cookies |   Diseñado por :<a href="acerca.html"> Juan</a> <a href="site-map.html" style="color: #fff;" > Site map</a>  
+
+                          &copy; 2022 Derechos Reservados | Politica de cookies   
                     </div>
+                    <div class="footer-copy">
+                      Desarrollado por:<a href="#"> Juan</a>
+                    
+                    </div>
+                    
                   </div>
               </div>
               <div class="icon_top" id="icon-btn">
-                 <span class="fa fa-angle-double-up"></apan>
+                 <span class="fa fa-arrow-up"></apan>
               </div>
     </footer><!-- Footer -->
  
@@ -206,6 +293,7 @@
      <script src="js/animacion.js"></script>
      <script src="js/slider.js"></script>
      <script src="js/loader.js"></script>
+     <script src="js/search.js"></script>
      <script src="js/scroll.js"></script>
   </body>
 </html>
