@@ -656,6 +656,16 @@ button.abajo {
 .image-hover2 .box.slide-bottom:hover img{transform:translate(0,-100%);}
 .image-hover2 .box.slide-bottom:hover .inner-box{bottom: 0%;}
 
+.fancybox-button--fullscreen::before {
+	width: 15px;
+	height: 11px;
+	left: calc(50% - 7px);
+	top: calc(50% - 6px);
+	border: 2px solid;
+	background: none;
+}
+
+
  /*=========categoria footer========*/
 
 /*==+ servicios===*/
