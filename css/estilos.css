@@ -41,7 +41,7 @@ html,h1,h2,h3,h4,h5,h6,p,a,label,span,small{
 .cabecera a{text-align: center;text-decoration: none;color: #000;font-family: 'Roboto',sans-serif; font-size: 14px;}
 .icon-contacto {
 text-align: center;
-color: #838080;
+color: #464444;
 margin: 0;
 font-weight: bold;
 letter-spacing: 1px;}
@@ -49,7 +49,7 @@ letter-spacing: 1px;}
 .icon-contacto img{top: 5px; position: relative; width: 24px;height: 24px;}
 .cabecera .sociales-nav{display: flex;  position: relative;}
 .cabecera .sociales-nav a{position: relative;text-decoration: none;color: 
-  #838080;font-size: 17px;top: 5px;margin-right:25px;font-weight:bold;
+  #464444;font-size: 17px;top: 5px;margin-right:25px;font-weight:bold;
 overflow: hidden;
 }
 .cabecera .sociales-nav >a i{
