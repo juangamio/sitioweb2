@@ -1693,7 +1693,7 @@ footer{
   width: 40px;
   height: 40px;
   transition: .5s;
-  z-index: 999;
+  z-index: 9;
   right: 20px; 
 }
 
@@ -1763,9 +1763,10 @@ footer{
   right: 2%;
   cursor: pointer;
   font-size: 30px;
-  color: #ddd;
+  color: #858585;
   position: absolute;
   outline: none;
+  transition: .2s;
   } 
   .form-buscar .button-buscar:hover{color: #0d60aba1;}
 
