@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding: 0;
@@ -1582,8 +1583,8 @@ modelos*/
 
 
 /*===icono subir===*/
-.icon_top{display: none;position: fixed;bottom: 20px;right: 25px;cursor: pointer;}
-.icon_top .fa {width: 20px;height:20px;border:2px  solid #274f77;border-radius: 2px;color: #4c76a0;font-size: 14px;padding: 12px;display: flex;align-items: center;justify-content: center;transition: 0.3s ease;text-align: center;}
+.icon_top{display: none;position: fixed;bottom: 20px;left: 25px;cursor: pointer;}
+.icon_top .fa {background:#eee; width: 20px;height:20px;border:2px  solid #274f77;border-radius: 50px;color: #444;font-size: 14px;padding: 12px;display: flex;align-items: center;justify-content: center;transition: 0.3s ease;text-align: center;}
 .icon_top .fa:hover{color: #eee!important;border-color:#285680; background:#285680; }
 
 
