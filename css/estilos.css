@@ -1241,7 +1241,7 @@ border-radius: 2%; filter:sepia(.8); border:2px solid  #f7f7f7;}
 #servicios_1{padding: 4rem 0; padding-bottom: 4rem 0; background: url("https://sistemasperuweb.com/img/web/servicios-de-paginas-web.jpg");background-size: cover;background-repeat: no-repeat;background-position: center center;}
 .color_celeste{color: #00F8FF;}
 #servicios_1 .col-mediano{text-align: center; display: inline-block; width: 20%;}
-#servicios_1 .col-mediano img{padding:1px;max-width: 160px;max-width: 145px; filter: sepia(.8);}
+#servicios_1 .col-mediano img{padding:1px;width: 160px;max-width: 145px; filter: sepia(.8);}
 #servicios_1 .col-mediano p{color: #eee;width: 250px; text-align: center;}
 
 .carrito-ecommerce{width: 100%;display: flex;justify-content: center;margin-top:3%;}
@@ -1735,7 +1735,7 @@ footer{
 
 @media only screen and (max-width: 400px){
 /*MENU*/
-#navbar{height: 60px;}
+#navbar{height: 60px;background: rgb(5 79 159 / 96%) !important;}
 .container-header .redes-menu .menu-label{top: 0px;}
 .principal-cabecera{display: none;}
 /*==banner menu header==*/
@@ -1753,6 +1753,10 @@ footer{
  .box-pregunta h4{ font-size: 28px; font-weight: normal; }
  .box-contenedor{ width: 99%; padding: 10px 0;}
  .terminos-tag{margin: 6px auto;}
+ .contenedor_tienda{width:155%;padding:20px; margin: 0;}
+  #servicios_1 .col-mediano{width: 100%;}
+  #servicios_1 .col-mediano p{color: #eee;width: 100%; text-align: center;}
+ 
  
 /*====Tienda====*/
 
