@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="Diseño y desarrollo de sitios web adaptable a dispositivos móviles, optimizado para Google" />
     <meta name="keywords" content="codigojota Cusco, tu pagina web en siete dias, web  seo cusco con códigojota "/>
+
+   
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -13,6 +15,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/estilos.css">
+    
+   
 </head>
 
 <body>
@@ -23,7 +27,7 @@
     <div id="navbar">
         <div class="principal-cabecera">
           <div class="cabecera">
-              <span class="icon-contacto"><img src="img/telefono_top.png">
+              <span class="icon-contacto"><img src="img/telefono_top.png" style="opacity: .4;">
                 <label>(+51) 968206865</label></span>
                 <span class="icon-contacto"><img src="img/correo_top.png">
                 <label>hola@jota.com</label></span>
@@ -43,10 +47,12 @@
     			</div>
     			<div class="redes-menu">
     				<div class="redes">
-    					<a href="contacto.html" class="btn_boton">Comenzar</a>
+            <li class="active"><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+               
     				</div>
             <div class="menu-label">
-              <label>Menú</label> 
+              <label>| Menú</label> 
             </div>
     				<div class="menu" id="btn-menu">
     					<span class="line line1"></span>
@@ -58,7 +64,7 @@
             <div class="icono-buscar"></div>
             <div class="form-buscar">
               <form>
-               <input type="text" name="" placeholder="Escriba aquí enter......" >
+               <input type="text" name="" placeholder="Bucar aqui..." >
               <button class="button-buscar fa fa-search"></button>
              </form>
             </div>
@@ -80,7 +86,7 @@
     
   <section class="home"><!--slider pagina-->
        <div class="slider">
-          <div class="slide active" style="background-image: url('img/slider_portada.jpg')">
+          <div class="slide active" style="background-image: url('img/slider-store.jpg')">
               <div class="container-web">
                   <div class="caption">
                       <h1 style="color: #ff7422;"><strong style="color: #FFF;">Diseño de</strong><span class="typed"></span></h1>
@@ -99,10 +105,10 @@
                   </div>
               </div>
           </div>
-          <div class="slide" style="background-image: url('img/slider-store.jpg')">
+          <div class="slide" style="background-image: url('img/slider-3.jpg')">
               <div class="container-web">
                   <div class="caption">
-                      <h1><strong style="color: #FFF;">Web SEO</strong>  en Buscadores</h1>
+                      <h1 style="color:#ff7422;"><strong style="color: #FFF;">Web SEO</strong>  en Buscadores</h1>
                       <p>Estrategias para posicionar tu página en Google</p>
                       <a href="web-seo.html">Empieza ahora !</a>
                   </div>
@@ -134,7 +140,7 @@
       <div class="contenido-modal">
         <div class="modal-header flex">
           <h2 style="margin-left: 20%;"> Cotiza tu proyecto</h2>
-          <span class="close" id="close">&times;</span>
+          <span class="close" id="close" title="cerrar">&times;</span>
         </div>
         <div class="modal-body">
           <form action="#" method="POST" action="#">
@@ -165,8 +171,7 @@
 <main><!-- Contenedor principal -->
     <section class="acerca-de"><!--diseño web-->
       <div class="info-container">
-       <h2 class="about__subtitle"> Diseño Web Profesional</h2>
-        <hr><br>
+       <h2 class="about__subtitle"> Diseño Web Profesional</h2><br>
         <p class="about__text"> El Diseño de página web de una empresa es su carta de presentación ante el mundo, la calidad de su sitio tiene que reflejar asi como la calidad de sus productos y servicios que ofrece  que buscan el mayor impacto a la hora de promocionar su producto en internet en base a los objetivos y metas que tengas como empresa. ¿Qué puede hacer un sitio  web por ti? Brindar a tus visitantes experiencias de usuario increíbles y convertirlos en clientes.
        </p>
        
@@ -230,12 +235,12 @@
                        data-aos-easing="linear"
                        data-aos-duration="1000">
 			        <div class="image">
-			            <img src="img/software-web.png" alt="#">
+			            <img src="https://www.senati.edu.pe/sites/default/files/2017/carrera/09/diseno-y-desarrollo-web-senati-1800-x-1190.jpg" alt="#">
 			            <i class="fa fa-laptop fa-2x"></i>
 			             <a href="paginas.html"><span class="fa fa-angle-double-right"></span> Desarrollo web</a>
 			        </div>
 			        <div class="image">
-			            <img src="https://www.damos.co/fotospages/mac_creacion_de_marca_y_manual_de_identidad_corporativa_branding_1529221336.jpg" alt="#">
+			            <img src="https://mott.pe/noticias/wp-content/uploads/2016/04/Recrean-posters-de-famosas-pel%C3%ADculas-solo-con-colores-10.jpg" alt="#">
 			           <i class="fa fa-coffee fa-2x"></i>
 			            <a href="blog.html"><span class="fa fa-angle-double-right"></span>  Diseño Gráfico</a>
 			        </div>
@@ -280,30 +285,8 @@
            </div>
 		    </div><br><br><!--/end sub categoria -->
         <div class="skew-abajo"></div>
-        <center><img src="img/ver-aqui-boton.png" width="400"></center>
     </section><!--/ Servicios -->
-     <section class="articulo__dos">
-            <div class="articulo__container container" data-aos="fade-down"
-            data-aos-easing="linear" data-aos-duration="600">
-                <div class="articulo__texts">
-                    <h2>Blog</h2>
-                    <p class="articulo__parrafo">Apartir del cambio en la manera en que los usuarios navegan por Internet y consiste en diseñar las páginas web adaptándose en un primer momento a los terminales móviles, y más adelante adaptarlo para pantallas de ordenador</p>
-                <a href="blog.html" class="cta">
-                  <span>leer mas</span>
-                  <svg width="13px" height="10px" viewBox="0 0 13 10">
-                    <path d="M1,5 L11,5"></path>
-                    <polyline points="8 1 12 5 8 9"></polyline>
-                  </svg>
-                </a>
-                </div>
-
-                <figure class="articulo__picture">
-                    <img src="img/macbook.png" class="articulo__img">
-                </figure>
-
-            </div>
-    </section>
-      
+     
     <div class="contenedor_inicio" ><!--==+ servicio==-->
     <div class="inicio_container" data-aos="fade-right"
             data-aos-easing="linear" data-aos-duration="1000">
@@ -329,10 +312,8 @@
           <div class="footer-image ancho__cajas" data-aos="fade-left"
             data-aos-easing="linear" data-aos-duration="1000">
             <p style="color: #fff;">¿Necesitas una <br> <b> Asesoría Especializada? </b></p>
-            <br><a href="contacto.html">→ Consultar aqui</a>
-            
-          </div>
-           
+            <br><a href="contacto.html">→ Consultar aqui</a> 
+          </div> 
          </div>
          
  </main> <!-- / contenedor -->
@@ -372,13 +353,8 @@
                   <div class="main-copy-redes">
                     <div class="footer-copy">
 
-                          &copy; 2022 Derechos Reservados | Politica de cookies   
+                          &copy; 2022 Derechos Reservados | Politica de cookies |  Desarrollado por:<a href="#" > Juan</a>  
                     </div>
-                    <div class="footer-copy">
-                      Desarrollado por:<a href="#" > Juan</a>
-                    
-                    </div>
-                    
                   </div>
               </div>
               <div class="icon_top" id="icon-btn">
@@ -400,23 +376,9 @@
     })();
 </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    /*(function () {
-        var options = {
-            whatsapp: "(+51) 968206865", // WhatsApp number
-            call_to_action: "Hola, ¿Cómo puedo ayudarte?", // Call to action
-            position: "left", // Position may be 'right' or 'left'
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();*/
-</script>
-<!-- /GetButton.io widget -->
 
  </footer><!-- Footer -->
-
+      
      <script src="js/jquery-3.2.1.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
      <script src="js/menu.js"></script>
