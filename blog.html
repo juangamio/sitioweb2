@@ -24,7 +24,7 @@
     <div id="navbar">
         <div class="principal-cabecera">
           <div class="cabecera">
-              <span class="icon-contacto"><img src="img/telefono_top.png">
+              <span class="icon-contacto"><img src="img/telefono_top.png" style="opacity: .4;">
                 <label>(+51) 968206865</label></span>
                 <span class="icon-contacto"><img src="img/correo_top.png">
                 <label>hola@jota.com</label></span>
@@ -45,10 +45,11 @@
           </div>
           <div class="redes-menu">
             <div class="redes">
-              <a href="contacto.html" class="btn_boton">Comenzar</a>
+              <li class="active"><a href="index.html" class="active">Inicio</a></li>
+              <li><a href="#">Acerca de</a></li>
             </div>
             <div class="menu-label">
-              <label>Menú</label> 
+              <label>| Menú</label> 
             </div>
             <div class="menu" id="btn-menu">
               <span class="line line1"></span>
@@ -119,45 +120,90 @@
     </ul> 
   </div><!--/redes-->
 
- <section class="acerca-de"><!-- diseño web -->
-      <div class="info-container">
-        <h1 style="text-align: center;color: #03abdd; text-transform: uppercase;"> Noticias y novedades</h1>
-        <br>
-        <p>El Diseño de página web de una empresa es su carta de presentación ante el mundo,la calidad de su sitio web  tiene que reflejar, la calidad de sus productos y servicios que ofrece. Desarrollo sitios web que se ajuste a las necesidades de su empresa que buscan el mayor impacto a la hora de promocionar o marketear su producto en internet.</p><br>
-      </div>  
-</section>
+<!--section blog-->
 <div class="div contenedor" >
-    <article class="article item item-uno"><!--articulo uno-->
-      <div class="contenido">
-        <div class="box_post">
-          <img src="https://visionindustrial.com.mx/wp-content/uploads/2021/06/Internet-de-las-cosas-ch.jpg">
-          <p>Posted by Juan</p>
-          <h3>El internet de las cosas…parte de la vida diaria</h3>
-          <p>El Internet de las cosas (IoT) es el proceso que permite conectar elementos físicos cotidianos al Internet: desde objetos domésticos comunes, como las bombillas de luz, hasta recursos para la atención de la salud...</p>
+  <div class="blog-container">
+    <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./img/economia.png" >
+                </div>
+                <div class="blog-text">
+                    <span>25 noviembre 2022 | Economia</span>
+                    <a href="" style="color: #000;">¿Cómo afecta el COVID-19 a las Economias?</a>
+                    <p>
+                        El impacto súbito y generalizado de la pandemia del coronavirus y las medidas de suspensión de las actividades que se adoptaron para contenerla han ocasionado una drástica contracción de la economía mundial....
+                    </p>
+                    <a href="blog.html" class="btn_leer">
+                      <span>Leer más</span>
+                      <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </a>
+                </div>
+            </div>
 
-          <a href="web-seo.html">leer más</a>
-        </div>
-      </div><br><br><br>
-      <div class="contenido">
-        <div class="box_post">
-          <img src="img/economia.jpg">
-          <h3>¿Cómo afecta el COVID-19 a las Economias?</h3>
-          <p>El impacto súbito y generalizado de la pandemia del coronavirus y las medidas de suspensión de las actividades que se adoptaron para contenerla han ocasionado una drástica contracción de la economía mundial...</p>
-          <a href="web-seo.html">leer más</a>
-        </div>
-      </div><br><br><br>
-      <div class="contenido">
-        <div class="box_post">
-          <img src="https://infimg.com/bimg/2018/04/tienda_online.png">
-          <h3>La evolución del e-Commerce en tiempos de Pandemia</h3>
-          <p>El comercio electrónico ha dejado de ser una tendencia. Se ha convertido en una solución, por no decir obligación, para vender durante la pandemia. ...</p>
-          <a href="tienda.html">leer más</a>
-          </div>
-      </div>
-      
-    </article><!-- end articulo dos-->
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./img/ioT.png" >
+                </div>
+                <div class="blog-text">
+                    <span>12 ocutbre 2022 | Tecnolgia</span>
+                    <a href="" style="color: #000;">El internet de las cosas de la vida cotidiana..post</a>
+                    <p>
+                        El Internet de las cosas (IoT) es el proceso que permite conectar elementos físicos cotidianos al Internet: desde objetos domésticos comunes, como las bombillas de luz, hasta recursos para la atención de la salud...
+                    </p>
+                    <a href="blog.html" class="btn_leer">
+                      <span>Leer más</span>
+                      <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </a>
+                </div>
+            </div>
 
-
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./img/sostenibilidad.png" height="870">
+                </div>
+                <div class="blog-text">
+                    <span>24 Febreo 2021 | Medio Ambiente</span>
+                    <a href="" style="color: #000;">Efecto invernadero, y la sostenibilidad ambiental </a>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae 
+                        blanditiis vitae nisi reiciendis illum unde ab, natus consequuntur sed corrupti.
+                    </p>
+                    <a href="blog.html" class="btn_leer">
+                      <span>Leer más</span>
+                      <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./img/ecommerce.png" >
+                </div>
+                <div class="blog-text">
+                    <span>17 marzo 2022 | Economia</span>
+                    <a href="#" style="color: #000;">La evolución del e-Commerce en tiempos de Pandemia</a>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae 
+                        blanditiis vitae nisi reiciendis illum unde ab, natus consequuntur sed corrupti.
+                    </p>
+                    <a href="blog.html" class="btn_leer">
+                      <span>Leer más</span>
+                      <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </a>
+                </div>
+            </div>
+      </div><!--section blog-->
 
     <article class="article item item-tres"><!--articulo tres-->
       <div class="lateral">
@@ -177,7 +223,7 @@
        <div class="lateral">
         <h5>Tienda online</h5>
           <p>Diseño y desarrollo de ecommerce,vende es posible por internet</p><br>
-          <a href="tienda.html"><img src="img/tienda-virtual.jpg" width="250" title="visitar" alt="tienda virtual para vender en internet"></a>
+          
       </div>
        
     </article><!-- end articulo tres--> 
@@ -189,40 +235,12 @@
   width: 95%;
   color: #555;
   margin: auto;
-  height:auto;
-  margin-bottom:70px;
-  margin-top: 13px;
-}
-.contenedor{display: flex;justify-content: center; flex-wrap: wrap;}
- .article{
-  width: 40%;
-  height:auto;
-  margin: 4px;
-  padding: 40px;
-  z-index: 10;
-}
-.article .contenido a{
-  border-radius: 33px; 
-  text-decoration:none; padding:10px 18px;  
-  margin:10px;font-size: 15px; 
-  color: #777; 
-  font-family: 'Raleway';
-  border:1px dotted #777;}
-.article .contenido h3{
-  margin-bottom:20px;
-  margin-top:15px; 
-  color: #03abdd;
-  font-weight: 500;}
-.article .contenido p{
-  margin-bottom:20px; 
-  font-size: 18px;
-  text-align: justify; 
-  color: #777;}
-.article .contenido img{
-  width:100%; 
-  height: 270px;
   margin-top:20px;
-  }
+}
+.contenedor{display: flex;
+  justify-content: center;
+}
+
 .item-uno{flex-grow: 2;}
 .item-dos{flex-grow: 2;}
 .item-tres{flex-basis: 300px;}
@@ -233,7 +251,7 @@
   text-transform: uppercase; 
   font-weight: normal;}
 .article .lateral ul a{
-  color: #03abdd; 
+  color:#8c9397; 
   margin:10px 10px;
   text-decoration: none; 
   font-size: 16px;
@@ -297,14 +315,9 @@
                   <div class="main-copy-redes">
                     <div class="footer-copy">
 
-                          &copy; 2022 Derechos Reservados | Politica de cookies   
+                          &copy; 2022 Derechos Reservados | Politica de cookies |  Desarrollado por:<a href="#" > Juan</a>   
                     </div>
-                    <div class="footer-copy">
-                      Desarrollado por:<a href="#"> Juan</a>
-                    
                     </div>
-                    
-                  </div>
               </div>
               <div class="icon_top" id="icon-btn">
                  <span class="fa fa-arrow-up"></apan>
