@@ -1751,7 +1751,7 @@ footer{
  .contenedor_inicio .inicio_container{width:95%;}
  .footer-contacto .footer-image{width: 98%;padding: 30px 5px;}
  .footer-contacto .footer-image img{ width: 95%;margin: auto;}
- .box-pregunta h4{ font-size: 26px; font-weight: normal; padding: 5px;}
+ .box-pregunta h4{ font-size: 26px; font-weight: normal; padding: 10px;}
  .box-contenedor{ width: 99%; padding: 10px 0;}
  .terminos-tag{margin: 6px auto;}
  .contenedor_tienda{width:97%;display: flex; justify-content: center; flex-wrap: wrap;}
